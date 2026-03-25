@@ -1,0 +1,80 @@
+---
+title: "Practice Case Study: The Green Campus Exchange"
+subtitle: "Building a Circular Economy Platform for Students"
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+date: "2026-03-25"
+format:
+  html:
+    toc: true
+    theme: journal
+---
+
+# 1. The Challenge: "The Green Campus Exchange"
+
+**Context:** Your university has noticed a massive waste of resources (textbooks, electronics, and kitchen equipment) left behind by departing students. Meanwhile, incoming students struggle to afford new gear.
+
+**The Goal:** You must build a functional "Circular Economy" MVP that allows students to list, borrow, or buy items within the campus community.
+
+---
+
+# 2. User Stories (The "Need")
+
+Your solution must satisfy three core user personas:
+1.  **The Donor:** Needs to quickly list an item (photo, category, condition) and choose if it's "Free" or "For Sale."
+2.  **The Buyer/Borrower:** Needs to browse items by category, filter by "Available" status, and request an item.
+3.  **The Admin:** Needs to validate listings before they go live to ensure they follow campus rules.
+
+---
+
+# 3. Technical Requirements
+
+To pass this practice run, your architecture must include:
+
+### A. Data Architecture (Airtable)
+Create a relational database with at least these tables:
+* **Users:** Names, emails, student IDs, and a "Rating" field.
+* **Items:** Linked to a User (Owner), Category, Status (Draft, Approved, Sold), and Price.
+* **Transactions:** Linked to an Item, a Buyer, and a Date.
+
+
+
+### B. The Interface (Softr)
+* A **Member Area** where students can see their own listings.
+* A **Public Gallery** with search and filter capabilities.
+* A **Submission Form** for new items.
+
+### C. Logic & Automation (Make.com)
+* **Workflow 1:** When a new item is submitted, send a notification to the Admin via email or Slack for approval.
+* **Workflow 2 (AI Integration):** Use an AI Agent (Stack AI or OpenAI) to automatically generate a "Marketing Description" for the item based on the student's short title and category.
+
+---
+
+# 4. Success Criteria (The "Tech-Check")
+
+Before submitting your practice link, verify:
+- [ ] Can a user sign up and log in?
+- [ ] Does the "Add Item" form correctly populate the Airtable base?
+- [ ] Does the "Status" change to "Sold" automatically when a transaction is recorded?
+- [ ] Is the AI-generated description appearing in the item details?
+
+---
+
+# 5. Reflection Question (Short Answer)
+
+*In your documentation, answer the following:*
+"If this platform grew from 100 students to 10,000, which part of your current No-Code stack would break first, and how would you fix it using a 'Low-Code' approach?"
+
+::: {.callout-tip}
+### Pro-Tip
+Focus on the **Data Integrity** first. If your database is messy, your automations will fail!
+:::

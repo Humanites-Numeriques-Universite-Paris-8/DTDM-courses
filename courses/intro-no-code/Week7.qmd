@@ -1,0 +1,89 @@
+---
+title: "Week 7: Workflow Automation"
+subtitle: "Building the Digital Nervous System with Make.com"
+author: "Master's in No-Code Programming"
+date: "2026-05-06"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: pulse
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Differentiate between **Polling** (Scheduled) and **Webhooks** (Instant) triggers.
+2.  Master **Data Mapping** between incompatible JSON structures.
+3.  Implement **Conditional Logic** using Routers and Filters.
+4.  Apply **Error Handling** strategies (Ignore, Resume, Rollback) to ensure system reliability.
+
+---
+
+# 1. Lecture: The Hub-and-Spoke Model (1 Hour)
+
+## 1.1 Automation as Orchestration
+In a modular "No-Code Stack," Make acts as the conductor.
+* **The Trigger:** The event that starts the chain (e.g., "A new row in Airtable" or "An incoming Webhook from Softr").
+* **The Action:** The operation performed (e.g., "Create a PDF," "Send a Slack message").
+* **The Search:** Looking up existing data to decide what to do next.
+
+
+
+## 1.2 The Power of Webhooks
+Instead of checking for updates every 15 minutes (Polling), we use **Webhooks**.
+* **Instant Execution:** The moment a button is clicked in Softr, the automation starts.
+* **Data Payloads:** Passing specific user data (ID, Email, Selection) directly into the workflow.
+
+## 1.3 Computational Thinking: Routers & Filters
+* **Filters:** "Only proceed if Price > $100."
+* **Routers:** Creating multiple paths. 
+    * *Path A:* If User = 'Student' -> Send Email.
+    * *Path B:* If User = 'Admin' -> Post to Discord.
+* **Iterators & Aggregators:** How to handle lists of data (e.g., taking 10 individual line items and turning them into one single invoice).
+
+---
+
+# 2. Lab: Building the "Auto-Pilot" Logic (2 Hours)
+
+## 2.1 The Instant Response Scenario (45 mins)
+* **Activity:** "The Notification Engine."
+* **Task:** Create a **Custom Webhook** in Make. Connect a "Buy" button in Softr to this Webhook.
+* **Mapping:** Extract the `User_Email` and `Item_Name` from the Webhook payload.
+
+## 2.2 Advanced Logic Branching (45 mins)
+* **Activity:** "The Smart Approval System."
+* **Task:** Add a **Router**. 
+    * If the Item Category is "Electronics," send it to a "Manual Review" table in Airtable.
+    * If the Category is "Books," automatically mark it as "Approved" and notify the user.
+* **Logic:** Use **Filters** on each route to check the `Category` value.
+
+## 2.3 Debugging & Error Handling (30 mins)
+* **Activity:** "The Safety Net."
+* **Task:** Intentionally break the scenario (e.g., use a wrong API key). 
+* **Learning:** Inspect the "Bubbles" in Make to see exactly where the data failed. Implement a **Break** or **Ignore** directive to handle the error gracefully.
+
+
+
+---
+
+# 3. Independent Study: The "Auto-Pilot" Challenge
+
+::: {.callout-important}
+### Assignment Due: Week 8
+Integrate at least **two automated scenarios** into your MVP project.
+:::
+
+**Submission Requirements:**
+1.  **Complexity:** At least one scenario must use a **Router** or a **Filter**.
+2.  **Multi-App:** The automation must connect at least **three different apps** (e.g., Softr -> Airtable -> Gmail/Slack).
+3.  **Efficiency:** Optimize your scenario to use the minimum number of "Operations" (cost-saving mindset).
+
+---
+
+# 💡 Teacher's Tip
+*Make.com is a "Visual Programming Language." Remind students: **"Data is like water in a pipe."** If the pipe is disconnected (bad mapping), the water stops. Use the 'Run Once' button frequently to visualize the 'bubbles' of data moving through the pipes.*
+
+---
+
+**Next Week:** *AI Integration with Stack AI. We add "Intelligence" to our automated workflows.*

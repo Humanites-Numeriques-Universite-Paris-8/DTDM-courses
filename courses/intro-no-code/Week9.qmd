@@ -1,0 +1,80 @@
+---
+title: "Week 9: Co-Creation & Peer-Review Sprint"
+subtitle: "Technical Auditing and Collaborative Refinement"
+author: "Master's in No-Code Programming"
+date: "2026-05-20"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: lux
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Perform a **Technical Audit** on a third-party No-Code architecture.
+2.  Practice **Pair-Building** to solve complex logic bottlenecks.
+3.  Identify and document **Edge Cases** and "Logic Breaks."
+4.  Implement **Refactoring** techniques to simplify automated workflows.
+
+---
+
+# 1. The Workshop: Collaborative Quality Assurance (3 Hours)
+
+Unlike previous weeks, this session is 100% interactive. Students are paired up to act as "Lead Architects" for each other’s projects.
+
+## 1.1 Hour 1: The Technical Swap & Audit
+* **Activity:** "The Handover." 
+* **Task:** Students swap access to their Airtable, Softr, and Make.com environments.
+* **Audit Checklist:** The "Auditor" must check:
+    * **Naming Conventions:** Are fields in Airtable named clearly (e.g., `fld_user_email`)?
+    * **Logic Efficiency:** Does a Make scenario use 10 modules when it could use 3?
+    * **Security:** Are API keys exposed? Is conditional visibility actually blocking sensitive data?
+
+
+
+## 1.2 Hour 2: The "Chaos Monkey" Session (Stress-Testing)
+* **Activity:** Trying to "Break" the app.
+* **Task:** The auditor attempts to input "bad data" into the partner's app. 
+    * *Example:* Entering text in a number field, submitting an empty form, or clicking "Buy" ten times in a second.
+* **Goal:** Identify where the app crashes or where the database creates "Zombie Records" (empty or orphaned data).
+
+## 1.3 Hour 3: Refactoring & Co-Creation
+* **Activity:** Collaborative Problem Solving.
+* **Task:** Based on the bugs found in Hour 2, the pair works together to fix the most critical logic flaw.
+* **Logic:** Practice explaining *why* a certain fix was implemented. This prepares students for the **Final Technical Defense**.
+
+---
+
+# 2. Peer-Review Framework: The "3-2-1" Method
+
+Each student must provide a formal feedback note to their partner using this structure:
+* **3 Strengths:** What is the most impressive part of the architecture?
+* **2 Logic Risks:** Where is the system most likely to fail under load?
+* **1 Immediate Action:** What is the single most important fix to complete before Week 10?
+
+
+
+---
+
+# 3. Independent Study: Refinement & Implementation
+
+::: {.callout-important}
+### Assignment Due: Week 10
+Implement the fixes identified during the Week 9 Sprint.
+:::
+
+**Submission Requirements:**
+1.  **Changelog:** A brief list of the 3 major changes made to the app based on peer feedback.
+2.  **Logic Update:** If a Make.com scenario was refactored, provide a "Before vs. After" screenshot.
+3.  **Self-Audit:** Verify that all "Must-Have" features are now 100% functional for the upcoming User Testing phase.
+
+---
+
+# 💡 Teacher's Tip
+*Students can be protective of their "babies." Remind them: **"A bug found now is a gift; a bug found during the Final Demo is a disaster."** Encourage a culture of radical transparency. In the professional world, "No-Code" often means "No-Documentation," so push them to name their modules and fields as if they were leaving the project to a stranger tomorrow.*
+
+---
+
+**Next Week:** *User Testing & UX Refinement. We bring in "real" users to see if the interface is actually intuitive.*

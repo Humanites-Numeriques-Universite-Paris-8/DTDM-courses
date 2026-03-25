@@ -1,0 +1,71 @@
+---
+title: "Weekly Lab Assignments"
+subtitle: "Master's in No-Code Programming: Independent Study Guide"
+author: "Master's Program Faculty"
+date: "Spring 2026"
+format:
+  html:
+    toc: true
+    theme: cosmo
+---
+
+# Phase 1: The Blueprint (Weeks 1-4)
+
+### Week 1: The Pain Point Log
+* **Task:** Observe your daily routines (personal or professional). Identify **three specific manual processes** that are repetitive, error-prone, or frustrating.
+* **Deliverable:** A simple document listing: 1) The Problem, 2) The current manual steps, 3) The desired outcome.
+
+### Week 2: Defining the Solution (Problem Statement)
+* **Task:** Select one problem from Week 1. Create a "User Persona" (who has this problem?) and a "Job-to-be-Done" (what are they trying to achieve?).
+* **Deliverable:** A 1-page PDF including a **Problem Statement** and a **Basic User Journey Map**.
+
+### Week 3: Architecting the Source of Truth (Airtable)
+* **Task:** Build the database for your project. You must have at least **3 Tables** (e.g., Users, Items, Transactions) with at least **2 Linked Record fields**.
+* **Deliverable:** A shared link to your Airtable Base and a screenshot of your **Schema View**.
+
+
+### Week 4: API & Backend Milestone (Xano)
+* **Task:** Create a Xano workspace. Import your Airtable data and build **one custom API endpoint** that filters data (e.g., "Show only items where Status = 'Available'").
+* **Deliverable:** **Milestone 1 Report:** A technical summary of your data structure and a link to your API documentation.
+
+---
+
+# Phase 2: The Build (Weeks 5-8)
+
+### Week 5: Building the Web Portal (Softr)
+* **Task:** Connect Softr to your Airtable base. Set up a **Signup/Login system**. Create a "List Page" that shows data and a "Detail Page" for specific items.
+* **Deliverable:** A live URL to your Web App prototype.
+
+### Week 6: The Mobile Interface (FlutterFlow)
+* **Task:** Replicate your core feature in a mobile environment. Focus on **State Management** (e.g., clicking a button changes a variable or updates a record).
+* **Deliverable:** Access to your FlutterFlow project or a short video recording of the mobile navigation.
+
+### Week 7: Connecting the Nervous System (Make.com)
+* **Task:** Build an automation that connects at least **three services**. 
+    * *Example:* When a user submits a form (Softr) -> Add to Database (Airtable) -> Send a personalized email (Gmail).
+* **Deliverable:** A screenshot of your **Make Scenario** showing successful "green" execution history.
+
+
+### Week 8: Adding Intelligence (Stack AI)
+* **Task:** Integrate an AI agent into your workflow. The AI must perform a task like **content categorization, sentiment analysis, or drafting a response**.
+* **Deliverable:** A link to the "AI-augmented" feature in your app.
+
+---
+
+# Phase 3: The Polish (Weeks 9-12)
+
+### Week 9: Peer-Review Audit
+* **Task:** Exchange project access with a classmate. Perform a "Stress Test." Try to break their logic and document every bug or UI inconsistency you find.
+* **Deliverable:** A **Peer-Review Report** (2 pages) sent to your partner and the professor.
+
+### Week 10: User Testing Results
+* **Task:** Record a 5-minute session of a "real user" (friend, colleague) trying to use your app without instructions. Document their points of confusion.
+* **Deliverable:** A summary of **3 required UI/UX changes** based on user feedback.
+
+### Week 11: Security & Final Technical Dossier
+* **Task:** Conduct a GDPR audit. Where is your data stored? How do you handle user deletion? Complete the final technical documentation.
+* **Deliverable:** **Final Technical Dossier (PDF).**
+
+### Week 12: Final Video Demo
+* **Task:** Record a high-quality 3-minute video demo of your functional MVP.
+* **Deliverable:** **Final Project Submission** (App URL + Video + Final Report).

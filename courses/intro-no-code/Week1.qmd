@@ -1,0 +1,101 @@
+---
+title: "Week 1: The No-Code Paradigm & 2026 Trends"
+subtitle: "Master's in No-Code Programming: Ideation & Co-Creation"
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+format: 
+  revealjs:
+    theme: sky
+    transition: slide
+    slide-number: true
+    chalkboard: true
+---
+
+# Introduction: Why are we here?
+
+* The "Developer Shortage" of 2020-2024.
+* The rise of the **Citizen Developer**.
+* 2026 Reality: 80% of new business applications are built using No-Code/Low-Code tools.
+* **Goal:** Moving from "How do I code this?" to "How do I architect this?"
+
+---
+
+# 1. Defining the Paradigm
+
+### What is No-Code in 2026?
+It is not "the absence of code." It is the **abstraction of code** into visual logical blocks.
+
+* **Abstraction:** We focus on the *Intent* rather than the *Syntax*.
+* **Visual Programming:** Manipulating data structures and logic flows via Canvas/Drag-and-Drop interfaces.
+* **The "Lego" Methodology:** Building complex ecosystems by snapping together modular APIs.
+
+
+
+---
+
+# 2. Traditional vs. No-Code Development
+
+| Feature | Traditional Code | No-Code (2026) |
+|---------|------------------|----------------|
+| **Speed** | Slow (Weeks/Months) | Ultra-Fast (Hours/Days) |
+| **Barrier** | High (Syntax Mastery) | Low (Logic Mastery) |
+| **Cost** | High (Salary/Legacy) | Low (Subscription/Agile) |
+| **Maintenance**| Complex (Refactoring) | Visual (Schema Updates) |
+| **Scalability**| Infinite | High (but restricted by platform) |
+
+---
+
+# 3. The 2026 Shift: AI-Augmented No-Code
+
+The "Third Wave" of No-Code: **Agentic Workflows**.
+
+1.  **Wave 1 (2015-2020):** Basic drag-and-drop (Wix, Squarespace).
+2.  **Wave 2 (2020-2024):** Powerful logic & DB (Airtable, Bubble, Make).
+3.  **Wave 3 (2025-Present):** Natural Language to App.
+    * *Example:* "Build me a CRM that connects to my LinkedIn and sends personalized AI videos."
+    * **The Human Role:** Architecture, Prompt Engineering, and Ethical Governance.
+
+[Image comparing the traditional software development lifecycle vs. no-code agile cycle]
+
+---
+
+# 4. The "No-Code Architect" Skillset
+
+To succeed in this Master's, you must master three pillars:
+
+1.  **Data Modeling:** Knowing how to relate "Customers" to "Orders."
+2.  **Logic Branching:** Understanding *If/Then/Else* and *Loops*.
+3.  **API Literacy:** Understanding how platforms "talk" to each other via JSON.
+
+---
+
+# 5. Market Trends & Industry Impact
+
+* **Enterprise:** Companies like Netflix, Zapier, and even local governments now use No-Code for "Shadow IT" and internal tools.
+* **Entrepreneurship:** The cost to launch a tech startup has dropped by 90%.
+* **The Job Market:** "No-Code Architect" is a top-10 emerging role in 2026 digital transformation teams.
+
+---
+
+# 6. Your Week 1 Mission: The Pain Point Log
+
+**Task:**
+1.  Observe your daily life (at home or work).
+2.  Identify **three repetitive tasks** that take more than 15 minutes.
+3.  Write them down. Next week, we will start the **Ideation phase** to solve them.
+
+---
+
+# Q&A / Discussion
+
+> "Does No-Code mean developers will lose their jobs?"
+> *Answer: No. It means developers will focus on building the tools (the 'bricks'), while we focus on building the houses (the 'solutions').*

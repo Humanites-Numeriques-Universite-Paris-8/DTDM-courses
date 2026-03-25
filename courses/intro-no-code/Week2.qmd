@@ -1,0 +1,81 @@
+---
+title: "Week 2: Ideation & Human-Centered Design"
+subtitle: "From Personal Frustrations to Digital Problem Statements"
+author: "Master's in No-Code Programming"
+date: "2026-04-01"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: lumos
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Apply **Design Thinking** principles to digital solution ideation.
+2.  Construct an **Empathy Map** to understand user friction.
+3.  Perform **Rapid Ideation** using the "Crazy 8s" methodology.
+4.  Define a **Minimum Viable Product (MVP)** based on feasibility and value.
+
+---
+
+# 1. Seminar: The Philosophy of Creation (1 Hour)
+
+## 1.1 Design Thinking vs. Agile
+In a Master's context, we distinguish between *doing the right thing* and *doing the thing right*.
+- **Design Thinking:** The process of discovery. Empathizing with the user to ensure we are solving a real problem.
+- **Agile Development:** The process of delivery. Building in small, iterative increments to allow for pivoting.
+*In No-Code, the distance between these two is almost zero.*
+
+## 1.2 Empathy Mapping for Non-Technical Needs
+Using the "Pain Point Log" from Week 1, students learn to map the user's internal state:
+- **Says/Does:** What are the visible manual actions?
+- **Thinks/Feels:** What is the underlying frustration (e.g., fear of losing data, boredom)?
+- **Pains/Gains:** What is the cost of the current process vs. the dream state of automation?
+
+
+
+---
+
+# 2. Workshop: Rapid Prototyping of Ideas (2 Hours)
+
+## 2.1 The "Crazy 8s" Challenge (45 mins)
+Students take their primary pain point and fold a piece of paper into 8 sections.
+- **Task:** Sketch 8 different interface ideas or workflow steps in 8 minutes (1 minute per sketch).
+- **Goal:** Push past the first, obvious idea to find creative architectural solutions. 
+- **No-Code Twist:** Instead of drawing code, students sketch **User Flows** (e.g., "Screen A -> Click Button -> Automation B -> Result C").
+
+## 2.2 Defining the MVP Scope (45 mins)
+Using the **MoSCoW Method**, students categorize the features they just sketched:
+- **Must have:** The core logic without which the app is useless.
+- **Should have:** Important but not vital for Version 1.
+- **Could have:** "Nice-to-have" features (often AI-related).
+- **Won't have (this time):** Features that are too complex for a 12-week sprint.
+
+## 2.3 Peer-Co-creation Pitch (30 mins)
+Students work in pairs. Each student has 3 minutes to present their MVP scope to a peer. The peer must act as a "Critical Friend," asking: *"How does this actually save the user time?"*
+
+---
+
+# 3. Independent Study: The Project Proposal
+
+::: {.callout-important}
+### Assignment Due: Week 3
+Finalize your **Project Proposal**. This document will serve as the "Contract" for your semester project.
+:::
+
+**Proposal Structure:**
+1.  **The Hook:** A 2-sentence description of the problem.
+2.  **The User Persona:** Who are you building this for? (Even if it is for yourself).
+3.  **The MVP Feature Set:** List your 3 "Must-Have" features.
+4.  **The Proposed Stack:** Which tools will you use for the Brain (DB), Face (UI), and Nervous System (Logic)?
+
+---
+
+# 💡 Teacher's Tip
+*Master's students often try to build "The Next Uber" or "The Next Airbnb." Force them to shrink their scope. Remind them: **"A perfect, working tool that saves one person 10 minutes a day is better than a broken unicorn."** Focus on the Feasibility-Value matrix.*
+
+---
+
+**Next Week:** *Master Class in Data Modeling. We move from sketches to actual Airtable architecture.*

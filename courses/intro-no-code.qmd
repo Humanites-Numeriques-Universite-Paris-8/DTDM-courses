@@ -1,72 +1,215 @@
 ---
 title: "Introduction to No-Code Programming"
 subtitle: "Ideation around Personal Needs and Co-creation of Digital Solutions"
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+date: "2026-03-25"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: zephyr
+    number-sections: true
+  pdf:
+    documentclass: report
+    papersize: a4
 ---
 
-## Présentation du cours
+# Course Description
 
-Ce cours initie les étudiants aux approches **no-code** et **low-code** pour la création de solutions numériques. Il met l'accent sur l'idéation à partir de besoins personnels et réels, et sur la co-création collaborative de prototypes numériques fonctionnels, sans nécessiter de compétences préalables en développement logiciel.
+This course explores the transformative power of No-Code and Low-Code paradigms in the modern digital economy. It bridges the gap between human-centered ideation and functional digital creation. Students will move from identifying personal and organizational "pain points" to architecting, building, and co-creating sophisticated digital solutions (apps, automations, and workflows) without traditional syntax-based programming.
 
-## Objectifs pédagogiques
+------------------------------------------------------------------------
 
-À l'issue de ce cours, les étudiants seront capables de :
+# Learning Outcomes
 
-- Identifier et formuler des besoins personnels et organisationnels pouvant être résolus par des outils numériques
-- Utiliser des plateformes no-code (Bubble, Webflow, Airtable, Zapier, Notion, etc.) pour prototyper des solutions
-- Conduire un processus d'idéation structuré (design thinking, brainstorming, user story mapping)
-- Collaborer en équipe pour co-créer et itérer sur des solutions numériques
-- Évaluer la pertinence et la faisabilité d'une solution no-code face à un problème donné
+Upon successful completion of this course, students will be able to:
 
-## Contenu du cours
+### Knowledge
 
-### Module 1 – Introduction au mouvement no-code
+-   **Critically evaluate** the No-Code ecosystem and its underlying visual programming logic.
+-   **Synthesize** "User-Centric Design" principles applied to digital problem-solving.
+-   **Assess** technical limitations and scalability of No-Code vs. traditional development.
+-   **Identify** ethical implications and data security standards (GDPR) in cloud-native platforms.
 
-- Histoire et évolution des outils no-code / low-code
-- Panorama des plateformes disponibles et leurs cas d'usage
-- Avantages et limites du no-code par rapport au développement traditionnel
+### Skills
 
-### Module 2 – Idéation & Design Thinking
+-   **Formulate** structured ideation processes to translate needs into technical requirements.
+-   **Architect** relational databases and complex logic workflows using visual interfaces.
+-   **Develop** high-fidelity functional prototypes and MVPs for real-world problems.
+-   **Implement** API integrations and automations to connect disparate digital tools.
 
-- Comprendre les besoins des utilisateurs : empathie, observation, entretiens
-- Techniques d'idéation : mind mapping, brainstorming structuré, « How Might We »
-- Priorisation des idées et définition du problème central
-- Création de personas et de parcours utilisateur (user journey)
+### Competences
 
-### Module 3 – Prototypage no-code
+-   **Lead** co-creation workshops between technical and non-technical stakeholders.
+-   **Manage** the end-to-end lifecycle of a digital project from empathy mapping to deployment.
+-   **Demonstrate** an "Agile" mindset by autonomously troubleshooting technical hurdles.
 
-- Découverte des outils phares : Bubble, Glide, Webflow, Airtable, Make (ex-Integromat)
-- Construction d'un prototype fonctionnel pas à pas
-- Intégration d'automatisations et de flux de données
-- Tests utilisateurs et itérations
+------------------------------------------------------------------------
 
-### Module 4 – Co-création et présentation
+# General Competences
 
-- Travail collaboratif en équipe pluridisciplinaire
-- Méthodes agiles appliquées au no-code (sprints courts, rétrospectives)
-- Présentation et défense du prototype devant un jury
+The course aims to develop the following core graduate attributes:
+-   **Search, analysis and synthesis of data and information**, using necessary technology.
+-   **Adaptability to new situations** (Fast-moving No-Code ecosystem).
+-   **Decision-making** (Architectural choices and tool selection).
+-   **Working in an interdisciplinary environment** (Co-creation).
+-   **Production of free, creative and inductive thinking**.
+-   **Project planning and management**.
+-   **Showing social, professional and ethical responsibility**.
 
-## Méthodes pédagogiques
+------------------------------------------------------------------------
 
-| Format | Description |
-|---|---|
-| Cours magistraux | Apports théoriques sur les concepts clés |
-| Ateliers pratiques | Prise en main des outils no-code sur des cas concrets |
-| Projets de groupe | Co-création d'une solution numérique en équipe |
-| Présentations | Restitution et soutenance du prototype final |
+# Weekly Schedule (39 Contact Hours)
 
-## Évaluation
+*Total Workload: 90 Hours (39h Contact + 51h Independent).*
 
-- **Prototype fonctionnel** (livrable collectif) – 50 %
-- **Présentation orale** (soutenance en équipe) – 30 %
-- **Réflexion individuelle écrite** (retour d'expérience) – 20 %
+## Phase 1: Ideation & Data Architecture
 
-## Ressources recommandées
+### Week 1: The No-Code Paradigm & 2026 Ecosystem
+* **Objectives:** Understand the shift from syntax-based to logic-based development.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** History of No-Code; the "Citizen Developer" in 2026.
+    * **Lab (2h):** Setting up the "Professional Stack." Exploring the interfaces of Airtable, Softr, and Make.
+* **Independent Study:** Keep a "Pain Point Log" (Identify 3 real-world frustrations).
+* [course materials](intro-no-code/Week1.html){target="_blank"}
 
-- [Bubble.io Documentation](https://bubble.io/documentation)
-- [Webflow University](https://university.webflow.com/)
-- IDEO, *Design Thinking Handbook* (en ligne, accès libre)
-- Norbert Alter, *L'innovation ordinaire* – pour replacer l'innovation dans son contexte social
+### Week 2: Ideation & Human-Centered Design
+* **Objectives:** Transform personal needs into digital problem statements.
+* **Contact Hours (3h):**
+    * **Seminar (1h):** Design Thinking vs. Agile. Empathy mapping for non-technical users.
+    * **Workshop (2h):** "Crazy 8s" sketching. Defining the MVP (Minimum Viable Product) scope.
+* **Independent Study:** Finalize your Project Proposal (Problem/Solution fit).
+* [course materials](intro-no-code/Week2.html){target="_blank"}
 
-## Prérequis
+### Week 3: Master Class: Data Modeling (Airtable)
+* **Objectives:** Build a relational database from scratch.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** Relational logic: One-to-Many vs. Many-to-Many.
+    * **Lab (2h):** Building your project's "Source of Truth." Linking records and creating rollups.
+* **Independent Study:** Populate your database with "Dummy Data" for testing.
+* [course materials](intro-no-code/Week3.html){target="_blank"}
 
-Aucune compétence en programmation n'est requise. Une curiosité pour les outils numériques et une envie de résoudre des problèmes de façon créative sont les seuls prérequis.
+### Week 4: Advanced Backend & The API Economy (Xano)
+* **Objectives:** Learn server-side logic and external data communication.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** Understanding REST APIs, JSON, and Webhooks.
+    * **Lab (2h):** Building an API endpoint in Xano to fetch and filter data.
+* **Independent Study:** **Milestone 1 Submission:** Technical Schema and API Map.
+* [course materials](intro-no-code/Week4.html){target="_blank"}
+
+---
+
+## Phase 2: Interface & Logic Integration
+
+### Week 5: Web Interface Design & User Portals (Softr)
+* **Objectives:** Create responsive web interfaces connected to dynamic data.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** UI/UX Best Practices for No-Code Portals.
+    * **Lab (2h):** Setting up conditional visibility and user permissions.
+* **Independent Study:** Map out your app's navigation flow.
+* [course materials](intro-no-code/Week1.html){target="_blank"}
+
+### Week 6: Native Mobile Development (FlutterFlow)
+* **Objectives:** Explore native mobile functionalities (GPS, Camera, Push).
+* **Contact Hours (3h):**
+    * **Lecture (1h):** Mobile UX constraints vs. Web Desktop.
+    * **Lab (2h):** Drag-and-drop UI build in FlutterFlow. Connecting a data source.
+* **Independent Study:** Optimize one key mobile feature for your MVP.
+* [course materials](intro-no-code/Week6.html){target="_blank"}
+
+### Week 7: Workflow Automation (Make.com)
+* **Objectives:** Build the "Invisible Nervous System" of your application.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** Automation logic: Triggers, Routers, and Error Handling.
+    * **Lab (2h):** Building a multi-step automation (e.g., Form -> DB -> AI -> Email).
+* **Independent Study:** Stress-test your automation with various data inputs.
+* [course materials](intro-no-code/Week7.html){target="_blank"}
+
+### Week 8: AI-Native Apps & Agentic Workflows
+* **Objectives:** Integrate Large Language Models (LLMs) into No-Code apps.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** Prompt Engineering and API orchestration with AI.
+    * **Lab (2h):** Building an AI agent using Stack AI to automate content generation.
+* **Independent Study:** Integrate an AI feature into your final project.
+* [course materials](intro-no-code/Week8.html){target="_blank"}
+
+---
+
+## Phase 3: Co-Creation & Final Delivery
+
+### Week 9: Co-Creation & Peer-Review Sprint
+* **Objectives:** Practice collaborative development and technical auditing.
+* **Contact Hours (3h):**
+    * **Interactive Workshop (3h):** "Pair-Building." Students swap projects to debug and optimize each other's logic.
+* **Independent Study:** Implement improvements based on peer feedback.
+* [course materials](intro-no-code/Week9.html){target="_blank"}
+
+### Week 10: User Testing & Analytical Iteration
+* **Objectives:** Use data to refine the User Experience.
+* **Contact Hours (3h):**
+    * **Seminar (1h):** Qualitative vs. Quantitative feedback. Using Maze and Hotjar.
+    * **Lab (2h):** Running a live user test and documenting "friction points."
+* **Independent Study:** Final UI/UX polish of the MVP.
+* [course materials](intro-no-code/Week10.html){target="_blank"}
+
+### Week 11: Governance, Security & Ethics
+* **Objectives:** Deploy solutions that are safe, legal, and professional.
+* **Contact Hours (3h):**
+    * **Lecture (1h):** GDPR compliance, data encryption, and vendor lock-in risks.
+    * **Workshop (2h):** Conducting a Security Audit of your MVP.
+* **Independent Study:** Complete the **Final Technical Dossier**.
+* [course materials](intro-no-code/Week11.html){target="_blank"}
+
+### Week 12: Final Demo Day & Technical Defense
+* **Objectives:** Present and defend the technical architecture of your solution.
+* **Contact Hours (3h):**
+    * **Event (3h):** 5-minute Pitch + 5-minute Live Demo + Q&A with Faculty.
+* **Independent Study:** Post-course reflection: "The Future of My Digital Solution."
+* [course materials](intro-no-code/Week12.html){target="_blank"}
+
+------------------------------------------------------------------------
+
+# Student Assessment
+
+The assessment is a mix of formative feedback and summative project delivery.
+
+| Method                      | Type                | Weight |
+|-----------------------------|---------------------|:------:|
+| **Weekly Build Labs**       | Formative           |  20%   |
+| **Technical Documentation** | Summative (Report)  |  20%   |
+| **Functional MVP**          | Summative (Project) |  40%   |
+| **Final Pitch & Q&A**       | Summative (Oral)    |  20%   |
+
+-   [Grading description](intro-no-code/Grading.html){target="_blank"}
+-   [Example of Case study](intro-no-code/CaseStudy.html){target="_blank"}
+-   [Example of Final MVP Project](intro-no-code/FinalMvpProject.html){target="_blank"}
+
+------------------------------------------------------------------------
+
+# Technological Equipment Requirements
+
+-   **Hardware:** Minimum 16GB RAM, modern CPU (M1/M2 or Intel i7 equivalent).
+-   **Connectivity:** High-speed Wi-Fi 6/6E with open access to API Webhooks.
+-   **Software:** Google Chrome, Figma, and the No-Code Stack (Airtable, Softr, Make, Xano, FlutterFlow).
+-   [Student Welcome Kit](intro-no-code/StudentWelcomeKit.html){target="_blank"}
+
+------------------------------------------------------------------------
+
+# Suggested Bibliography
+
+-   **Gartner (2025/2026):** *Market Guide for Low-Code Application Platforms.*
+-   **Sanders, E. B. N., & Stappers, P. J. (2024):** *Convivial Design Toolbox.*
+-   **Sahay, A. (2025):** *No-Code/Low-Code software Development: Definition, drivers, and inhibitors.* Journal of Software: Evolution and Process.
+-   **Academic Journals:** *MIS Quarterly*, *IEEE Software*, *Journal of Systems and Software*.
+-   [Glossary of main concept](intro-no-code/Glossary.html){target="_blank"}
+-   [A Curated Bibliography for Master's Students](intro-no-code/ResourceHub.html){target="_blank"}

@@ -1,0 +1,73 @@
+/* DTDM – Digital Transformation Design & Management */
+
+:root {
+  --dtdm-primary: #1a3a5c;
+  --dtdm-accent: #2980b9;
+  --dtdm-light: #ecf0f1;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.navbar {
+  background-color: var(--dtdm-primary) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+h1, h2, h3 {
+  color: var(--dtdm-primary);
+}
+
+.course-card {
+  border: 1px solid #dce1e7;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
+  background: #f8fafc;
+  transition: box-shadow 0.2s;
+}
+
+.course-card:hover {
+  box-shadow: 0 4px 16px rgba(26, 58, 92, 0.12);
+}
+
+.course-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.badge-ects {
+  display: inline-block;
+  background: var(--dtdm-accent);
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--dtdm-primary) 60%, var(--dtdm-accent));
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.92;
+}

@@ -1,0 +1,87 @@
+---
+title: "Week 6: Web Interface Design & User Portals"
+subtitle: "Building the User Experience (UX) Layer with Softr"
+author: "Master's in No-Code Programming"
+date: "2026-04-22"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: flatly
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Apply **Atomic Design** principles to no-code web interfaces.
+2.  Connect a **Frontend (Softr)** to a **Backend (Airtable/Xano)** in real-time.
+3.  Implement **Conditional Visibility** based on user roles and permissions.
+4.  Design a seamless **Login/Signup flow** with protected pages.
+
+---
+
+# 1. Lecture: The Psychology of the Interface (1 Hour)
+
+## 1.1 Atomic Design in No-Code
+We don't just "draw" pages; we build systems. We follow the **Atomic Design** methodology:
+* **Atoms:** Buttons, inputs, labels.
+* **Molecules:** A search bar (Input + Button).
+* **Organisms:** A navigation bar or a "List of Items" block.
+* **Templates/Pages:** The final assembly of these components.
+
+
+
+## 1.2 User Roles & Permissions
+In a Master's level app, not everyone sees everything.
+* **Logged-out Users:** Can see the Landing Page and "About" section.
+* **Students:** Can see "Available Items" and "My Profile."
+* **Admins:** Can see "Pending Approvals" and "User Management."
+* **Logic:** We define visibility at the **Block level** and **Page level**.
+
+## 1.3 UX Best Practices for Portals
+* **Consistency:** Using a "Global Style" guide (colors, typography).
+* **Feedback Loops:** Showing "Success" messages after a form is submitted.
+* **Responsive Design:** Ensuring the portal works on a laptop and a tablet.
+
+
+
+---
+
+# 2. Lab: Building the Secure Portal (2 Hours)
+
+## 2.1 Connecting the "Face" to the "Brain" (30 mins)
+* **Activity:** Link Softr to your Week 3 Airtable base.
+* **Task:** Set up the API connection and map your "Users" table to the Softr User Management system.
+
+## 2.2 Building the "Browse & Detail" Flow (1 Hour)
+* **Step 1:** Add a **Dynamic List Block**. Map the fields (Title, Image, Price) to your Airtable columns.
+* **Step 2:** Configure the **Detail Page**. When a user clicks an item, Softr must open a dedicated page showing more info.
+* **Step 3:** Add a **Search & Filter** bar to allow users to find items by category.
+
+## 2.3 Implementing Permissions (30 mins)
+* **Activity:** Creating a "Seller's Dashboard."
+* **Task:** Add a block that is **only visible** to users whose "User Role" is "Seller."
+* **Logic:** Test the app as two different users to ensure the visibility rules are functioning correctly.
+
+---
+
+# 3. Independent Study: Navigation & UI Mapping
+
+::: {.callout-important}
+### Assignment Due: Week 6
+Finalize the **UI Prototype** of your application.
+:::
+
+**Submission Requirements:**
+1.  **Sitemap:** A diagram showing how pages link together (Home -> Login -> Dashboard -> Item Detail).
+2.  **Live URL:** A working Softr link where a user can sign up and see a list of data.
+3.  **UI Style Guide:** A brief document listing your chosen Primary Color, Secondary Color, and Fonts.
+
+---
+
+# 💡 Teacher's Tip
+*Students often get distracted by "making it pretty." Remind them: **"Function over Form."** A beautiful app that doesn't display data is a failure. An ugly app that correctly filters data by User ID is a technical success. Focus on the 'Data Mapping' first, and the 'CSS' last.*
+
+---
+
+**Next Week:** *Native Mobile Development with FlutterFlow. We learn how to take our logic into the pocket of the user.*

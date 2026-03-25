@@ -1,0 +1,88 @@
+---
+title: "Student Welcome Kit"
+subtitle: "Introduction to No-Code Programming: Ideation & Co-creation"
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+date: "2026-03-25"
+university: "Département Humanités Numériques - Université Paris 8"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    highlight-style: dracula
+---
+
+# Welcome to the No-Code Revolution! 🚀
+
+Welcome to the course. In this Master's module, we transition from being digital consumers to being **architects of digital solutions**. To hit the ground running, please complete the following technical setup and your "Pre-Class Mission" before our first session.
+
+## 1. Hardware & Software Requirements
+
+As we will be running multiple resource-intensive cloud editors (Bubble, FlutterFlow, AI Agents), please ensure your machine meets these 2026 standards:
+
+::: {.callout-important}
+### Minimum Technical Specifications
+- **RAM:** 16GB (Strict Minimum) for smooth multi-tab performance.
+- **Browser:** **Google Chrome** (Latest version). Most No-Code debugging extensions are optimized for Chromium.
+- **Secondary Screen:** Highly recommended for "Build Labs" (one screen for the instructor, one for your editor).
+:::
+
+---
+
+## 2. The 2026 No-Code Stack (Account Setup)
+
+Please create accounts for the following platforms using your **university (.edu) email** to access educational discounts and premium features.
+
+| Tool | Role | Action Required |
+|------|------|-----------------|
+| **Airtable** | Database / Backend | Create a free account (120-day Team trial included with .edu). |
+| **Softr** | Web Interface / MVP | Register for the free tier. Ideal for internal tools and portals. |
+| **Make** | Automation / Logic | Join the **Make Digital Education Program** to unlock premium tasks. |
+| **Xano** | Advanced Backend | Create a free account. Our "Scalability" engine for complex data. |
+| **FlutterFlow** | Mobile App Builder | Set up an account and explore the "2026 Roadmap" templates. |
+| **Stack AI** | AI Orchestration | Register for a free account (includes 500 runs/month for prototypes). |
+
+---
+
+## 3. Pre-Class Mission: The "Pain Point" Log
+
+Our course starts with **Ideation**. Your first task is to keep a "Frustration Journal" for the next 7 days.
+
+::: {.callout-tip}
+### Your Mission
+1. **Identify 3 "Personal Needs"** or manual "Pain Points" in your daily life or current workplace.
+2. *Example:* "I hate manually tracking my student expenses" or "Our team spends 4 hours a week copying data from emails to spreadsheets."
+3. **The Goal:** Bring these 3 problems to Week 1. We will use them to define your semester-long MVP project.
+:::
+
+---
+
+## 4. Communication & Resources
+
+- **Course Discord/Slack:** [Link to join]. This is our "Help Desk" for technical troubleshooting.
+- **Resource Library:** Bookmark the **"2026 No-Code Playbook"** for boilerplate templates and API snippets.
+
+---
+
+## 5. Important Note on AI Usage
+
+::: {.callout-note}
+### The AI Junior Developer
+In this course, we treat **Generative AI** as your Junior Developer. You are encouraged to use LLMs (ChatGPT, Claude, Gemini) to help write custom logic or troubleshoot errors, provided you can explain the logic during your **Oral Examination**.
+:::
+
+---
+
+### Recommended Viewing
+For a head start, watch this guide on building AI automations:
+[No-code app development in 2026](https://www.youtube.com/watch?v=3cjBI3xtr4Y)

@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Analysis, Management, Data Mining, and Visualisation of Big Data – DTDM – Digital Transformation Design &amp; Management</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b337f537912f5ab074b938eebad4c5d7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">DTDM – Digital Transformation Design &amp; Management</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cours" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Cours</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cours">    
+        <li>
+    <a class="dropdown-item" href="../courses/intro-no-code.html">
+ <span class="dropdown-text">Introduction au No-Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/foreign-language.html">
+ <span class="dropdown-text">Langue Étrangère</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/digital-foresight.html">
+ <span class="dropdown-text">Digital Foresight</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/digital-transformation-management.html">
+ <span class="dropdown-text">Digital Transformation Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/fundamental-rights.html">
+ <span class="dropdown-text">Droits Fondamentaux &amp; IA</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/data-security.html">
+ <span class="dropdown-text">Sécurité des Données</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/big-data.html">
+ <span class="dropdown-text">Big Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/professional-orientation.html">
+ <span class="dropdown-text">Orientation Professionnelle</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/conferences-workshop.html">
+ <span class="dropdown-text">Conférences &amp; Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/masters-thesis.html">
+ <span class="dropdown-text">Mémoire de Master</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/internship.html">
+ <span class="dropdown-text">Stage</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../courses/intro-no-code.html">Cours</a></li><li class="breadcrumb-item"><a href="../courses/big-data.html">Analysis, Management, Data Mining, and Visualisation of Big Data</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Présentation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Master DTDM – Digital Transformation Design &amp; Management</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Cours</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/intro-no-code.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to No-Code Programming</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/foreign-language.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Foreign Language Course</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/digital-foresight.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digital Foresight</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/digital-transformation-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digital Transformation Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/fundamental-rights.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fundamental Rights in the Era of Digital and AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/data-security.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data and Transaction Security</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/big-data.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Analysis, Management, Data Mining, and Visualisation of Big Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/professional-orientation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Professional Orientation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/conferences-workshop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Days of Conferences &amp; 3 Days Workshop</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/masters-thesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Master’s Thesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../courses/internship.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Internship</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#présentation-du-cours" id="toc-présentation-du-cours" class="nav-link active" data-scroll-target="#présentation-du-cours">Présentation du cours</a></li>
+  <li><a href="#objectifs-pédagogiques" id="toc-objectifs-pédagogiques" class="nav-link" data-scroll-target="#objectifs-pédagogiques">Objectifs pédagogiques</a></li>
+  <li><a href="#contenu-du-cours" id="toc-contenu-du-cours" class="nav-link" data-scroll-target="#contenu-du-cours">Contenu du cours</a>
+  <ul class="collapse">
+  <li><a href="#module-1-introduction-aux-big-data" id="toc-module-1-introduction-aux-big-data" class="nav-link" data-scroll-target="#module-1-introduction-aux-big-data">Module 1 – Introduction aux Big Data</a></li>
+  <li><a href="#module-2-gestion-et-traitement-des-données" id="toc-module-2-gestion-et-traitement-des-données" class="nav-link" data-scroll-target="#module-2-gestion-et-traitement-des-données">Module 2 – Gestion et traitement des données</a></li>
+  <li><a href="#module-3-analyse-et-data-mining" id="toc-module-3-analyse-et-data-mining" class="nav-link" data-scroll-target="#module-3-analyse-et-data-mining">Module 3 – Analyse et Data Mining</a></li>
+  <li><a href="#module-4-visualisation-des-données" id="toc-module-4-visualisation-des-données" class="nav-link" data-scroll-target="#module-4-visualisation-des-données">Module 4 – Visualisation des données</a></li>
+  </ul></li>
+  <li><a href="#technologies-et-outils-abordés" id="toc-technologies-et-outils-abordés" class="nav-link" data-scroll-target="#technologies-et-outils-abordés">Technologies et outils abordés</a></li>
+  <li><a href="#méthodes-pédagogiques" id="toc-méthodes-pédagogiques" class="nav-link" data-scroll-target="#méthodes-pédagogiques">Méthodes pédagogiques</a></li>
+  <li><a href="#évaluation" id="toc-évaluation" class="nav-link" data-scroll-target="#évaluation">Évaluation</a></li>
+  <li><a href="#ressources-recommandées" id="toc-ressources-recommandées" class="nav-link" data-scroll-target="#ressources-recommandées">Ressources recommandées</a></li>
+  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../courses/intro-no-code.html">Cours</a></li><li class="breadcrumb-item"><a href="../courses/big-data.html">Analysis, Management, Data Mining, and Visualisation of Big Data</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Analysis, Management, Data Mining, and Visualisation of Big Data</h1>
+<p class="subtitle lead">Analyse, gestion, extraction et visualisation des mégadonnées</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="présentation-du-cours" class="level2">
+<h2 class="anchored" data-anchor-id="présentation-du-cours">Présentation du cours</h2>
+<p>Le cours <em>Big Data</em> forme les étudiants aux techniques et aux outils permettant de collecter, stocker, analyser et visualiser des volumes massifs de données. Il aborde les dimensions techniques (architecture, traitement), analytiques (exploration, modélisation) et décisionnelles (visualisation, restitution) des données volumineuses, en lien direct avec les enjeux stratégiques des organisations.</p>
+</section>
+<section id="objectifs-pédagogiques" class="level2">
+<h2 class="anchored" data-anchor-id="objectifs-pédagogiques">Objectifs pédagogiques</h2>
+<p>À l’issue de ce cours, les étudiants seront capables de :</p>
+<ul>
+<li>Comprendre les architectures et les technologies de stockage et de traitement des Big Data</li>
+<li>Appliquer des techniques d’exploration et d’extraction de connaissances (<em>data mining</em>)</li>
+<li>Utiliser des outils d’analyse de données (Python/pandas, SQL, Apache Spark)</li>
+<li>Concevoir et produire des visualisations de données efficaces et adaptées à leur public</li>
+<li>Interpréter les résultats d’une analyse de données en vue de la prise de décision</li>
+<li>Prendre en compte les enjeux éthiques et de confidentialité liés aux données massives</li>
+</ul>
+</section>
+<section id="contenu-du-cours" class="level2">
+<h2 class="anchored" data-anchor-id="contenu-du-cours">Contenu du cours</h2>
+<section id="module-1-introduction-aux-big-data" class="level3">
+<h3 class="anchored" data-anchor-id="module-1-introduction-aux-big-data">Module 1 – Introduction aux Big Data</h3>
+<ul>
+<li>Les 5 V du Big Data : Volume, Vitesse, Variété, Véracité, Valeur</li>
+<li>Panorama des sources de données : IoT, réseaux sociaux, logs, capteurs, bases transactionnelles</li>
+<li>Architectures Big Data : entrepôts de données (<em>data warehouses</em>), lacs de données (<em>data lakes</em>), architectures Lambda et Kappa</li>
+<li>Présentation de l’écosystème Hadoop / Spark / Kafka</li>
+</ul>
+</section>
+<section id="module-2-gestion-et-traitement-des-données" class="level3">
+<h3 class="anchored" data-anchor-id="module-2-gestion-et-traitement-des-données">Module 2 – Gestion et traitement des données</h3>
+<ul>
+<li>Modèles de données : relationnel, NoSQL (document, clé-valeur, colonne, graphe)</li>
+<li>Introduction aux bases de données distribuées : MongoDB, Cassandra, Elasticsearch</li>
+<li>Traitement en temps réel vs.&nbsp;traitement par lots (<em>batch processing</em>)</li>
+<li>Qualité et gouvernance des données : nettoyage, déduplication, catalogage</li>
+<li>Initiation à Apache Spark et PySpark</li>
+</ul>
+</section>
+<section id="module-3-analyse-et-data-mining" class="level3">
+<h3 class="anchored" data-anchor-id="module-3-analyse-et-data-mining">Module 3 – Analyse et Data Mining</h3>
+<ul>
+<li>Processus KDD (<em>Knowledge Discovery in Databases</em>) et CRISP-DM</li>
+<li>Statistiques descriptives et exploratoires appliquées aux Big Data</li>
+<li>Algorithmes de clustering : k-means, DBSCAN, classification hiérarchique</li>
+<li>Algorithmes de classification supervisée : arbres de décision, forêts aléatoires, SVM</li>
+<li>Détection d’anomalies et analyse de séries temporelles</li>
+<li>Introduction au <em>text mining</em> et à l’analyse de sentiments</li>
+<li>Initiation au machine learning avec scikit-learn</li>
+</ul>
+</section>
+<section id="module-4-visualisation-des-données" class="level3">
+<h3 class="anchored" data-anchor-id="module-4-visualisation-des-données">Module 4 – Visualisation des données</h3>
+<ul>
+<li>Principes de la visualisation de données : grammaire des graphiques, perception visuelle</li>
+<li>Outils de visualisation : Tableau, Power BI, Matplotlib, Seaborn, Plotly, D3.js</li>
+<li>Conception de tableaux de bord (<em>dashboards</em>) interactifs</li>
+<li>Storytelling avec les données (<em>data storytelling</em>)</li>
+<li>Visualisation de données géospatiales</li>
+<li>Bonnes pratiques et pièges courants de la visualisation</li>
+</ul>
+</section>
+</section>
+<section id="technologies-et-outils-abordés" class="level2">
+<h2 class="anchored" data-anchor-id="technologies-et-outils-abordés">Technologies et outils abordés</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Catégorie</th>
+<th>Outils</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Langages</td>
+<td>Python, SQL</td>
+</tr>
+<tr class="even">
+<td>Traitement</td>
+<td>Apache Spark, PySpark, Pandas</td>
+</tr>
+<tr class="odd">
+<td>Stockage</td>
+<td>MongoDB, PostgreSQL, Elasticsearch</td>
+</tr>
+<tr class="even">
+<td>Visualisation</td>
+<td>Tableau, Power BI, Plotly, Seaborn</td>
+</tr>
+<tr class="odd">
+<td>Environnements</td>
+<td>Jupyter Notebook, Google Colab</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="méthodes-pédagogiques" class="level2">
+<h2 class="anchored" data-anchor-id="méthodes-pédagogiques">Méthodes pédagogiques</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cours magistraux</td>
+<td>Concepts théoriques et architectures Big Data</td>
+</tr>
+<tr class="even">
+<td>Travaux pratiques</td>
+<td>Manipulation de données réelles avec Python et Spark</td>
+</tr>
+<tr class="odd">
+<td>Ateliers de visualisation</td>
+<td>Création de dashboards et de graphiques interactifs</td>
+</tr>
+<tr class="even">
+<td>Projet de groupe</td>
+<td>Analyse complète d’un jeu de données de bout en bout</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="évaluation" class="level2">
+<h2 class="anchored" data-anchor-id="évaluation">Évaluation</h2>
+<ul>
+<li><strong>Projet d’analyse de données</strong> (de la collecte à la visualisation) – 50 %</li>
+<li><strong>Rapport technique</strong> sur les choix méthodologiques et les résultats – 30 %</li>
+<li><strong>Présentation orale</strong> des résultats et du tableau de bord – 20 %</li>
+</ul>
+</section>
+<section id="ressources-recommandées" class="level2">
+<h2 class="anchored" data-anchor-id="ressources-recommandées">Ressources recommandées</h2>
+<ul>
+<li><strong>Ouvrages</strong> :
+<ul>
+<li>Aurélien Géron, <em>Hands-On Machine Learning with Scikit-Learn, Keras &amp; TensorFlow</em> (O’Reilly)</li>
+<li>Edward Tufte, <em>The Visual Display of Quantitative Information</em></li>
+<li>Tom White, <em>Hadoop: The Definitive Guide</em> (O’Reilly)</li>
+</ul></li>
+<li><strong>En ligne</strong> :
+<ul>
+<li><a href="https://www.kaggle.com">Kaggle</a> – jeux de données et tutoriels</li>
+<li><a href="https://towardsdatascience.com">Towards Data Science</a> (Medium)</li>
+<li>Documentation officielle Apache Spark (<a href="https://spark.apache.org">spark.apache.org</a>)</li>
+<li>Fast.ai – cours de deep learning accessibles</li>
+</ul></li>
+</ul>
+</section>
+<section id="prérequis" class="level2">
+<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
+<p>Une connaissance de base de Python et des notions de statistiques descriptives sont souhaitables. Les étudiants sans bagage technique seront accompagnés lors d’une mise à niveau en début de cours.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

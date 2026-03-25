@@ -1,0 +1,72 @@
+---
+title: " Final MVP Project"
+subtitle: "Detailed Guidelines"
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+date: "2026-03-25"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    highlight-style: dracula
+---
+
+# Final MVP Project: Detailed Guidelines
+
+The final examination consists of designing, building, and presenting a functional digital solution (Minimum Viable Product) that addresses a specific "Personal or Organizational Need" identified during the course.
+
+## 1. Project Scope & Deliverables
+
+Every student must submit a **"No-Code Solution Package"** comprising:
+1.  **The Functional App/Automation:** A live URL or access to the digital environment.
+2.  **The Technical Dossier:** A 2,000-word report documenting the architecture.
+3.  **The Demo Pitch:** A 5-minute live presentation followed by 5 minutes of technical Q&A.
+
+## 2. Technical Mandatory Requirements
+
+To demonstrate Master-level competency, the project must include:
+* **A Relational Database:** At least 3 linked tables with appropriate data types (Airtable or Xano).
+* **Complex Logic:** Use of conditional triggers (If/Then), filters, and at least one automated multi-step workflow (Make).
+* **External Integration:** At least one connection to an external API or AI service (e.g., OpenAI, Google Maps, Stripe).
+* **User Management:** A functional login/signup system with distinct user roles or permissions.
+
+## 3. The Technical Dossier (Structure)
+
+The report must follow this outline:
+* **Executive Summary:** The problem, the target user, and the chosen "Stack."
+* **System Architecture Diagram:** A visual map of how data flows between your tools.
+* **Data Schema:** A detailed view of your database structure (fields, types, and relationships).
+* **Scalability & Security Analysis:** * How would this app handle 10,000 users?
+    * Where is the data stored? Is it GDPR compliant?
+    * What are the risks of "Vendor Lock-in" for this specific project?
+* **Critical Reflection:** What was the biggest technical hurdle, and how did you use AI or peer co-creation to solve it?
+
+## 4. Evaluation Rubric (Grading Scale)
+
+| Criteria | Weight | Excellent (Grade A) |
+|----------|:------:|---------------------|
+| **Problem-Solution Fit** | 20% | The app solves a clearly defined and validated pain point. |
+| **Architectural Integrity**| 30% | Database is normalized; workflows are efficient and error-handled. |
+| **UX/UI Design** | 20% | Professional, responsive, and intuitive interface. |
+| **Technical Complexity** | 20% | Effective use of APIs, AI agents, or complex logic branches. |
+| **Critical Awareness** | 10% | Clear understanding of security, ethics, and limitations. |
+
+## 5. Submission Instructions
+
+* **Deadline:** Week 12, 24 hours before the Demo Day.
+* **Format:** PDF for the report + Shared "Read-only" links for the No-Code tools (Airtable base, Make scenario, etc.).
+
+::: {.callout-warning}
+### Academic Integrity & AI
+While the use of AI agents (like Replit Agent or GPT-4) is encouraged for generating logic or debugging, **copy-pasting a full solution without understanding the underlying architecture will result in failure during the Oral Examination.** You must be able to explain every node of your workflow.
+:::

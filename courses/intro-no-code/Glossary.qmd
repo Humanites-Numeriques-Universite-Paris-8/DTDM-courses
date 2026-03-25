@@ -1,0 +1,86 @@
+---
+title: "No-Code Technical Glossary"
+subtitle: "Week 1: Fundamental Concepts for the No-Code Architect"
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+format:
+  html:
+    toc: true
+    theme: cosmo
+---
+
+# Introduction
+
+As a Master’s student, you must transition from being a "user" to being an **architect**. To achieve this, it is crucial to understand the "language" of digital systems, even if you are not writing traditional code. Here are the essential terms to get you started.
+
+---
+
+# 1. Data Foundations
+
+### Relational Database
+Unlike a simple spreadsheet (like Excel), a relational database organizes information into separate tables that are linked together.
+* **No-Code Example:** In Airtable, a "Students" table is linked to a "Courses" table.
+* **Why it matters:** It prevents data redundancy and ensures data integrity across your entire system.
+
+### JSON (JavaScript Object Notation)
+The universal standard format for exchanging data on the web. It is structured text using "Key/Value" pairs.
+* **Example:** `{"LastName": "Smith", "FirstName": "John"}`.
+* **Why it matters:** This is the format you will see flowing through your automations (Make, Zapier, Xano).
+
+---
+
+# 2. System Communication
+
+### API (Application Programming Interface)
+An API is a "contract" that allows two applications to talk to each other.
+* **Analogy:** A waiter in a restaurant. You (the user) give an order (Request) to the waiter (API), who takes it to the kitchen (The remote system) and brings back your meal (The data).
+* **Why it matters:** This is what allows your app to fetch weather data, send a WhatsApp message, or connect to ChatGPT.
+
+### Webhook
+A Webhook is a real-time notification sent from one application to another when a specific event occurs.
+* **Analogy:** It is an application "calling" yours to say, "Hey, something just happened!".
+* **Difference from API:** An API waits to be asked (Pull), whereas a Webhook sends info as soon as it exists (Push).
+
+---
+
+# 3. Software Architecture
+
+### Frontend vs. Backend
+* **Frontend:** The visible part of your application (design, buttons, colors). Tools: Softr, FlutterFlow.
+* **Backend:** The invisible "brain" (database, logic, security). Tools: Xano, Airtable.
+* **Headless:** A "headless" architecture where the Backend and Frontend are entirely separate and communicate solely via API.
+
+### CRUD (Create, Read, Update, Delete)
+The four basic operations that any application must be able to perform on data.
+1.  **Create:** Making a new profile.
+2.  **Read:** Viewing the profile.
+3.  **Update:** Changing a password.
+4.  **Delete:** Deleting the account.
+
+---
+
+# 4. Logic & Automation
+
+### Boolean Logic (If / Then / Else)
+The foundation of all computing decisions. 
+* **Example:** IF (If) stock is < 5, THEN (Then) send an email, ELSE (Else) do nothing.
+
+### Variables & Triggers
+* **Trigger:** The event that starts an automation (e.g., "New email received").
+* **Variable:** A container for data that changes (e.g., the "Name" of the person who sent the email).
+
+---
+
+::: {.callout-tip}
+### Architect's Tip
+Do not try to memorize everything at once. During the **Build Labs**, refer back to this glossary whenever you encounter a technical term in the interface of Make or Airtable.
+:::

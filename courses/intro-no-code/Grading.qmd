@@ -1,0 +1,191 @@
+---
+title: "Grading Rubric"
+subtitle: ""
+author:
+  - name: Laure Leroy
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+format:
+  html:
+    toc: true
+    theme: cosmo
+---
+
+# 1. Grading Structure Overview
+
+The final grade is automatically calculated based on the following weighted components:
+
+| Component | Weight | Calculation Logic |
+|-----------|:------:|-------------------|
+| **Weekly Labs (W1-W12)** | 20% | Average of all 12 labs (Scale 0-10) |
+| **Technical Dossier** | 20% | Single grade (Scale 0-20) |
+| **Final MVP Project** | 40% | Single grade (Scale 0-20) |
+| **Final Pitch & Demo** | 20% | Single grade (Scale 0-20) |
+
+---
+
+# 2. Spreadsheet Template Structure
+
+You can copy this structure into **Excel** or **Google Sheets**.
+
+
+
+### Column Headers
+| Student Name | W1 | W2 | W3 | W4 | ... | W12 | **Lab Avg (20%)** | **Dossier (20%)** | **MVP (40%)** | **Pitch (20%)** | **Final Grade (/20)** |
+|--------------|----|----|----|----|-----|-----|-------------------|-------------------|---------------|-----------------|-----------------------|
+| *Max Scale* | *10* | *10* | *10* | *10* | *10* | *10* | *Weighted* | *0-20* | *0-20* | *0-20* | *Total* |
+
+### Formula Logic (Excel/Sheets)
+If `Student Name` is in Column A:
+1.  **Lab Avg (Weighted out of 4 points):** `=AVERAGE(B2:M2) * 0.4` (Assuming W1-W12 are in B to M)
+2.  **Dossier (Weighted out of 4 points):** `=O2 * 0.2` (Assuming Dossier score is in O)
+3.  **MVP (Weighted out of 8 points):** `=P2 * 0.4` (Assuming MVP score is in P)
+4.  **Pitch (Weighted out of 4 points):** `=Q2 * 0.2` (Assuming Pitch score is in Q)
+5.  **Final Grade (/20):** `=SUM(R2:U2)`
+
+---
+
+# 3. Weekly Lab Tracking Table
+
+Use this internal table to monitor the 12 technical milestones.
+
+| Week | Lab Topic | Due Date | Status |
+|------|-----------|----------|--------|
+| **W1** | Pain Point Log | Week 2 | [ ] |
+| **W2** | Problem Statement | Week 3 | [ ] |
+| **W3** | Airtable Schema | Week 4 | [ ] |
+| **W4** | Xano API Setup | Week 5 | [ ] |
+| **W5** | Softr Frontend | Week 6 | [ ] |
+| **W6** | FlutterFlow UI | Week 7 | [ ] |
+| **W7** | Make Automation | Week 8 | [ ] |
+| **W8** | AI Integration | Week 9 | [ ] |
+| **W9** | Peer-Review | Week 10| [ ] |
+| **W10**| User Testing | Week 11| [ ] |
+| **W11**| Security Audit | Week 12| [ ] |
+| **W12**| Video Demo | Final | [ ] |
+
+## Phase 1: The Blueprint (Weeks 1-4)
+
+### Week 1: The Pain Point Log
+* **Task:** Observe your daily routines (personal or professional). Identify **three specific manual processes** that are repetitive, error-prone, or frustrating.
+* **Deliverable:** A simple document listing: 1) The Problem, 2) The current manual steps, 3) The desired outcome.
+
+### Week 2: Defining the Solution (Problem Statement)
+* **Task:** Select one problem from Week 1. Create a "User Persona" (who has this problem?) and a "Job-to-be-Done" (what are they trying to achieve?).
+* **Deliverable:** A 1-page PDF including a **Problem Statement** and a **Basic User Journey Map**.
+
+### Week 3: Architecting the Source of Truth (Airtable)
+* **Task:** Build the database for your project. You must have at least **3 Tables** (e.g., Users, Items, Transactions) with at least **2 Linked Record fields**.
+* **Deliverable:** A shared link to your Airtable Base and a screenshot of your **Schema View**.
+
+
+### Week 4: API & Backend Milestone (Xano)
+* **Task:** Create a Xano workspace. Import your Airtable data and build **one custom API endpoint** that filters data (e.g., "Show only items where Status = 'Available'").
+* **Deliverable:** **Milestone 1 Report:** A technical summary of your data structure and a link to your API documentation.
+
+---
+
+## Phase 2: The Build (Weeks 5-8)
+
+### Week 5: Building the Web Portal (Softr)
+* **Task:** Connect Softr to your Airtable base. Set up a **Signup/Login system**. Create a "List Page" that shows data and a "Detail Page" for specific items.
+* **Deliverable:** A live URL to your Web App prototype.
+
+### Week 6: The Mobile Interface (FlutterFlow)
+* **Task:** Replicate your core feature in a mobile environment. Focus on **State Management** (e.g., clicking a button changes a variable or updates a record).
+* **Deliverable:** Access to your FlutterFlow project or a short video recording of the mobile navigation.
+
+### Week 7: Connecting the Nervous System (Make.com)
+* **Task:** Build an automation that connects at least **three services**. 
+    * *Example:* When a user submits a form (Softr) -> Add to Database (Airtable) -> Send a personalized email (Gmail).
+* **Deliverable:** A screenshot of your **Make Scenario** showing successful "green" execution history.
+
+
+### Week 8: Adding Intelligence (Stack AI)
+* **Task:** Integrate an AI agent into your workflow. The AI must perform a task like **content categorization, sentiment analysis, or drafting a response**.
+* **Deliverable:** A link to the "AI-augmented" feature in your app.
+
+---
+
+## Phase 3: The Polish (Weeks 9-12)
+
+### Week 9: Peer-Review Audit
+* **Task:** Exchange project access with a classmate. Perform a "Stress Test." Try to break their logic and document every bug or UI inconsistency you find.
+* **Deliverable:** A **Peer-Review Report** (2 pages) sent to your partner and the professor.
+
+### Week 10: User Testing Results
+* **Task:** Record a 5-minute session of a "real user" (friend, colleague) trying to use your app without instructions. Document their points of confusion.
+* **Deliverable:** A summary of **3 required UI/UX changes** based on user feedback.
+
+### Week 11: Security & Final Technical Dossier
+* **Task:** Conduct a GDPR audit. Where is your data stored? How do you handle user deletion? Complete the final technical documentation.
+* **Deliverable:** **Final Technical Dossier (PDF).**
+
+### Week 12: Final Video Demo
+* **Task:** Record a high-quality 3-minute video demo of your functional MVP.
+* **Deliverable:** **Final Project Submission** (App URL + Video + Final Report).
+
+---
+
+# 4. Grading Scale (European Standard)
+
+| Grade | Percentage | Description |
+|-------|------------|-------------|
+| **A** | 90-100% | Excellent: Exceptional logic and architecture. |
+| **B** | 80-89% | Very Good: Strong technical execution. |
+| **C** | 70-79% | Good: Functional solution with minor logic flaws. |
+| **D** | 60-69% | Satisfactory: Meets minimum requirements. |
+| **F** | <60% | Fail: Non-functional or incomplete solution. |
+
+# Overview of Build Labs
+
+Each week, students complete a hands-on "Build Lab" (Airtable, Softr, Make, Xano, etc.). These labs are graded on a scale of 0 to 10 points based on technical execution and logic.
+
+---
+
+# The Universal Build Rubric
+
+| Criteria | Weight | Excellent (9-10 pts) | Good (7-8 pts) | Satisfactory (5-6 pts) | Unsatisfactory (<5 pts) |
+|----------|:------:|----------------------|----------------|------------------------|-------------------------|
+| **Functional Accuracy** | 40% | All requirements met; the solution works flawlessly without bugs. | Most requirements met; functions as intended with minor UI glitches. | Partial functionality; core logic works but requires manual intervention. | Significant bugs; the main workflow fails to execute. |
+| **Logic & Architecture** | 30% | Data schema is perfectly normalized. Workflows are efficient (minimal steps). | Sound logic; minor redundancies in database or automation steps. | Basic logic; inefficient data structure or redundant workflow loops. | Major logical flaws; circular dependencies or data silos. |
+| **Troubleshooting & Documentation** | 20% | Clear naming conventions. Excellent self-correction of bugs documented in logs. | Good naming. Able to explain why specific logic branches were chosen. | Inconsistent naming. Limited evidence of independent troubleshooting. | No documentation; unclear variable names; cannot explain the logic. |
+| **Innovation & Polish** | 10% | Proactive use of advanced features or AI augmentation beyond the brief. | Clean interface/setup; follows all best practices discussed in class. | Meets basic brief but lacks attention to detail or user experience. | Minimal effort; incomplete interface or messy backend. |
+
+---
+
+# Sample Lab Evaluation (Example: Database & API Lab)
+
+::: {.callout-note}
+### Lab Goal
+Connect a Xano backend to a Softr frontend and fetch data via an API call.
+:::
+
+1. **Architecture (Airtable/Xano):** Are primary keys used? Are relationships One-to-Many?
+2. **Connectivity (API):** Is the API key secure? Does the JSON map correctly?
+3. **Logic (Make):** Are filters used to prevent unnecessary "runs" (cost optimization)?
+
+---
+
+# Feedback Policy
+
+* **Self-Correction Bonus:** If a student identifies a bug in their own lab submission and documents the fix before the grading deadline, they receive a **+1 point** bonus.
+* **The AI Clause:** Students may use AI to generate logic snippets (e.g., regex, formulas), but they **must** include a comment explaining what the code/formula does. Failure to explain the logic results in a 2-point deduction.
+
+---
+
+# Late Submission Policy
+
+* **< 24 Hours Late:** -2 points.
+* **24-48 Hours Late:** -5 points.
+* **> 48 Hours Late:** 0 points (unless documented medical/personal emergency).
+
+---
+

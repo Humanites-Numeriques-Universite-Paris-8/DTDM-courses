@@ -1,0 +1,78 @@
+---
+title: "Week 10: User Testing & Analytical Iteration"
+subtitle: "Validating the Experience with Behavioral Data"
+author: "Master's in No-Code Programming"
+date: "2026-05-27"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: materia
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Differentiate between **Qualitative** (Attitudinal) and **Quantitative** (Behavioral) user feedback.
+2.  Set up and deploy **Unmoderated Remote Testing** using Maze.
+3.  Analyze **Heatmaps and Session Recordings** to identify UI friction.
+4.  Calculate a **System Usability Scale (SUS)** score for their MVP.
+
+---
+
+# 1. Seminar: The Science of "Watching" (1 Hour)
+
+## 1.1 "What they say" vs. "What they do"
+In a Master's context, we prioritize behavioral data over opinions.
+* **The "Lizard Brain" Effect:** Users often say an app is "easy to use" even if they struggled for 5 minutes to find the "Submit" button.
+* **The Think-Aloud Protocol:** How to moderate a session where the user narrates their thoughts in real-time.
+
+## 1.2 Introduction to Behavioral Analytics
+In 2026, AI-powered analytics (like Hotjar AI or Microsoft Clarity) automatically summarize user frustration.
+* **Rage Clicks:** When a user clicks a button 5 times in 2 seconds (indicates a broken link or slow response).
+* **Dead Clicks:** Clicking on non-interactive elements (indicates confusing UI design).
+* **Drop-off Points:** Identifying exactly where users exit the "Onboarding Funnel."
+
+
+
+---
+
+# 2. Lab: The "Friction" Audit (2 Hours)
+
+## 2.1 Setting up Maze Missions (45 mins)
+* **Activity:** Remote Testing Setup.
+* **Task:** Connect your Softr or FlutterFlow prototype to **Maze**. Create three "Missions" (e.g., "Sign up and list one item for sale").
+* **Logic:** Define a "Success Path." Maze will automatically track how many users deviate from it.
+
+## 2.2 Analyzing the "Evidence" (45 mins)
+* **Activity:** Session Replay Review.
+* **Task:** Install the **Hotjar** tracking snippet on your Softr app. Observe 3 "Ghost Sessions" (anonymous recordings).
+* **Audit:** Document every "Micro-Hesitation" (when the mouse hovers for >3 seconds without clicking).
+
+## 2.3 The SUS Score (30 mins)
+* **Activity:** Subjective Validation.
+* **Task:** Create a 10-question **System Usability Scale** survey. 
+* **Logic:** Send it to 3 peers. Calculate the average score. A score below 68 indicates a "UX Emergency."
+
+---
+
+# 3. Independent Study: The Final UI/UX Polish
+
+::: {.callout-important}
+### Assignment Due: Week 11
+Submit your **UX Validation Report**.
+:::
+
+**Submission Requirements:**
+1.  **Heatmap Analysis:** A screenshot of your most-clicked areas and what surprised you.
+2.  **The "Fix List":** Identify the **top 3 friction points** found during testing.
+3.  **Iteration Evidence:** Provide "Before vs. After" screenshots of the UI changes you implemented to solve these points.
+
+---
+
+# 💡 Teacher's Tip
+*Students often take user confusion personally. Remind them: **"User error is actually Designer error."** If a user can't find the 'Save' button, it's not because they are 'stupid'—it's because the button isn't where their brain expected it to be. Encourage students to celebrate every bug found now, as it’s a point saved during the Final Demo.*
+
+---
+
+**Next Week:** *Security, Ethics & Governance. We ensure your app is not just functional, but legal and safe.*

@@ -1,0 +1,86 @@
+---
+title: "Week 6: Native Mobile Development"
+subtitle: "Building Professional iOS & Android Apps with FlutterFlow"
+author: "Master's in No-Code Programming"
+date: "2026-04-29"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: morph
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Differentiate between **Responsive Web** and **Native Mobile** UX patterns.
+2.  Master **Layout Widgets** (Rows, Columns, Stacks) in a Flutter-based environment.
+3.  Understand and implement **App State** vs. **Page State**.
+4.  Connect a mobile frontend to an external **API (Xano/Airtable)**.
+
+---
+
+# 1. Lecture: The Mobile-First Mindset (1 Hour)
+
+## 1.1 Web vs. Mobile: Why it Matters
+We don't just "shrink" a website. Mobile design requires a shift in ergonomics:
+* **Touch Targets:** Minimum 44x44 pixels for thumbs.
+* **Gestures:** Using Swipes, Long-presses, and Pull-to-refresh.
+* **Native Power:** Accessing the hardware (Camera, GPS, Biometrics, Accelerometer).
+
+
+
+## 1.2 State Management: The "Memory" of the App
+In mobile apps, the app needs to "remember" things as you move between screens.
+* **Local State:** Data specific to one screen (e.g., text typed in a search bar).
+* **App State:** Data shared across the whole app (e.g., the User's Cart or Login status).
+* **Logic:** Understanding when to trigger a "Rebuild" of the UI based on state changes.
+
+
+
+## 1.3 The Flutter Ecosystem
+Students learn that **FlutterFlow** generates real **Dart/Flutter code** under the hood. 
+* **The "Low-Code" Escape Hatch:** If a feature doesn't exist, we can write a "Custom Action" in code.
+* **Deployment:** Understanding the difference between a PWA (Web) and the App Store/Play Store.
+
+---
+
+# 2. Lab: From Canvas to Device (2 Hours)
+
+## 2.1 The FlutterFlow UI Engine (45 mins)
+* **Activity:** Building the "Home Screen."
+* **Task:** Use **Columns** and **Rows** to create a clean, centered layout. 
+* **Logic:** Use **Padding** and **Alignment** to ensure the design looks good on both an iPhone 15 and a Google Pixel.
+
+## 2.2 Connecting Dynamic Data (45 mins)
+* **Activity:** The API Call.
+* **Task:** Use the **API Manager** to call the Xano endpoint created in Week 4.
+* **Mapping:** Map the JSON response to a **ListView** widget. Show students how to generate "Dynamic Children."
+
+## 2.3 Navigation & Passing Parameters (30 mins)
+* **Activity:** The "Go to Details" Action.
+* **Task:** Create a second screen. Set up a "Navigate To" action when a list item is tapped.
+* **Logic:** Pass the **ID** of the item to the second screen so the app knows which data to fetch.
+
+---
+
+# 3. Independent Study: The Mobile Prototype
+
+::: {.callout-important}
+### Assignment Due: Week 7
+Develop the **Core Mobile Flow** of your project.
+:::
+
+**Submission Requirements:**
+1.  **Navigation Flow:** At least 3 connected screens (Home, Search, Profile).
+2.  **State Logic:** Implement one "App State" variable (e.g., a "Favorites" count).
+3.  **Native Integration:** Attempt to use one native feature (e.g., the Camera to take a profile picture or a Google Maps widget).
+
+---
+
+# 💡 Teacher's Tip
+*FlutterFlow is powerful but can be overwhelming due to its "Pro" interface. Remind students: **"Start with the Widget Tree."** If the tree is structured correctly (Column -> Row -> Container), the UI will follow. If they just drag things randomly onto the canvas, the app will break on different screen sizes.*
+
+---
+
+**Next Week:** *Workflow Automation with Make.com. We connect all our pieces into a fully automated "Nervous System."*

@@ -1,0 +1,79 @@
+---
+title: "Week 12: Final Demo Day & Technical Defense"
+subtitle: "Showcasing the Minimum Viable Product (MVP)"
+author: "Master's in No-Code Programming"
+date: "2026-06-10"
+format:
+  html:
+    toc: true
+    theme: materia
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  **Pitch** a functional digital solution to a technical and business audience.
+2.  **Defend** architectural choices (Stack selection, Data Schema, Logic).
+3.  **Handle** real-time technical Q&A regarding scalability and security.
+4.  **Demonstrate** a live, bug-free "Happy Path" user journey.
+
+---
+
+# 1. The Event Structure (3 Hours)
+
+The session is divided into 10-minute "Sprints" per student.
+
+## 1.1 The "High-Stakes" Format
+* **5 Minutes: The Pitch.** Focusing on the Problem, the Solution, and the Business Value.
+* **5 Minutes: The Live Demo.** A walkthrough of the functional app (Airtable/Softr/Make/AI).
+* **5 Minutes: Technical Q&A.** The Jury asks deep-dive questions about the "Back-end" logic.
+
+
+
+---
+
+# 2. Jury Grading Sheet (Criteria for Success)
+
+Each member of the jury (Faculty + External Guest) uses this rubric:
+
+| Criteria | Weight | Score (0-20) | Notes |
+|----------|:------:|:------------:|-------|
+| **Problem/Solution Fit** | 20% | | Is the pain point solved effectively? |
+| **Technical Complexity** | 30% | | Correct use of Relational DB, APIs, and AI? |
+| **UI/UX Quality** | 20% | | Is the interface intuitive and professional? |
+| **Architectural Defense**| 20% | | Can the student explain the logic flow? |
+| **Presentation Skills** | 10% | | Clarity, timing, and handling of Q&A. |
+
+---
+
+# 3. Student Resource: The Pitch Script Template
+
+To help students prepare, provide this "3-Act" script structure:
+
+### Act 1: The Problem (60 Seconds)
+* *"Last month, I realized that [Person X] spends [Time Y] doing [Manual Task Z]. This costs the organization [Amount/Stress]."*
+
+### Act 2: The Solution (120 Seconds - Live Demo)
+* *"I built [App Name] using a modular No-Code stack. Here is how a user signs up... Notice how the AI Agent automatically categorizes the input... This is then synced to our Airtable 'Source of Truth' via a Make.com webhook."*
+
+### Act 3: The Technical Defense (60 Seconds)
+* *"I chose Xano for the backend to ensure data sovereignty. My logic uses a 'Safety First' filter to prevent unauthorized API access. If we scale to 1,000 users, my current bottleneck would be [X], which I plan to solve by [Y]."*
+
+---
+
+# 4. Closing the Semester: Post-Demo Reflection
+
+::: {.callout-note}
+### Final Reflection (Independent Study)
+After the demo, students must submit a 250-word reflection on:
+*"Which part of the 'Architect' mindset was the hardest to adopt, and how has your view of software changed?"*
+:::
+
+---
+
+# 💡 Teacher's Tip
+*Demo Day is stressful. Remind students: **'The Jury wants you to succeed.'** If a bug happens during the live demo (and it will), tell them to stay calm, explain what is happening 'under the hood,' and move on. In 2026, the ability to troubleshoot a live system is a more valuable skill than a 'perfect' first run.*
+
+---
+
+**Semester End:** *Grades will be published within 7 days. Congratulations on becoming No-Code Architects!*

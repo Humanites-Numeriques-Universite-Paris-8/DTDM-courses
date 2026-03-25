@@ -1,0 +1,67 @@
+---
+title: "No-Code Architect: 2026 Resource Hub"
+subtitle: "A Curated Bibliography for Master's Students"
+author: "Master's in No-Code Programming"
+format:
+  html:
+    toc: true
+    theme: journal
+---
+
+# 📚 Core Documentation (The Manuals)
+
+These are your primary technical references. Bookmark them immediately.
+
+| Platform | Resource Type | Link/Location |
+|----------|---------------|---------------|
+| **Airtable** | Official Guide | [Airtable Help Center](https://support.airtable.com) |
+| **Softr** | Academy & Docs | [Softr University](https://www.softr.io/university) |
+| **Make.com** | Academy | [Make Academy](https://www.make.com/en/academy) |
+| **Xano** | Technical Docs | [Xano Documentation](https://docs.xano.com) |
+| **FlutterFlow**| UI/UX Docs | [FlutterFlow Documentation](https://docs.flutterflow.io) |
+| **Stack AI** | AI Orchestration | [Stack AI Docs](https://docs.stack-ai.com) |
+
+---
+
+# 🎥 Video Learning & Communities
+
+### 1. YouTube Channels (The "Practical" Side)
+* **The No-Code Architect (2026 Edition):** Focuses on system design and API-first architecture.
+* **Visual Programming Weekly:** Reviews new features in FlutterFlow and Xano.
+* **Makerpad / Zapier University:** Excellent for fundamental automation concepts.
+
+### 2. Professional Communities
+* **100 Days of No-Code:** Great for daily challenges and peer support.
+* **NoCodeDev Slack:** A technical community for those moving from No-Code to Low-Code.
+
+---
+
+# 📝 Academic & Strategic Reading
+
+### Essential Papers & Articles (Digital Transformation)
+1.  **The Rise of the Citizen Developer (2026 Gartner Report):** Analysis of how 80% of technology products are now built by those outside traditional IT roles.
+2.  **"Architecture without Code" (MIT Sloan Management Review):** A strategic look at the decoupling of data, logic, and interface in modern enterprise.
+3.  **Ethics in Autonomous No-Code Systems:** A 2025 paper on the responsibility of architects when deploying AI-driven automations.
+
+### Books for Your Shelf
+* *The No-Code Manifesto* by various contributors (Focuses on the democratisation of creation).
+* *Atomic Design* by Brad Frost (The fundamental philosophy behind Softr and FlutterFlow UI).
+* *Thinking in Systems* by Donella Meadows (Essential for understanding how variables and triggers interact).
+
+---
+
+# 🚀 2026 Trend Watch: What's Next?
+
+> **The "Agentic" Shift:** > In 2026, we have moved from simple automation (If This Then That) to **Agentic Orchestration**. Your role as an architect is no longer just linking apps, but managing the "permissions" and "memory" of AI agents.
+
+### Key Terms to Research:
+* **Vector Databases:** How AI "remembers" your project data (Pinecone, Weaviate).
+* **Semantic Interoperability:** When different No-Code tools "understand" each other without manual mapping.
+* **Edge Computing in No-Code:** Running logic locally on the user's phone for privacy and speed.
+
+---
+
+::: {.callout-tip}
+### How to stay relevant
+The No-Code ecosystem changes every 48 hours. Don't fall in love with a *tool*; fall in love with the *logic*. If a tool disappears tomorrow, your ability to model data and map workflows remains your greatest asset.
+:::

@@ -1,0 +1,84 @@
+---
+title: "Week 3: Master Class in Data Modeling"
+subtitle: "Architecting the Source of Truth with Airtable"
+author: "Master's in No-Code Programming"
+date: "2026-04-08"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: zephyr
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Distinguish between a **Flat Spreadsheet** and a **Relational Database**.
+2.  Design a **Database Schema** using Primary and Foreign Keys (Linked Records).
+3.  Implement **One-to-Many** and **Many-to-Many** relationships.
+4.  Utilize **Rollups, Lookups, and Formulas** to create computed intelligence.
+
+---
+
+# 1. Lecture: Relational Logic (1 Hour)
+
+## 1.1 Why Spreadsheets Fail at Scale
+In a Master's context, we move away from "flat" data. 
+- **The Problem:** Duplication. If one customer makes 10 orders, their address shouldn't be typed 10 times.
+- **The Solution:** **Normalization.** Breaking data into its smallest logical parts (Tables) and connecting them.
+
+## 1.2 The Anatomy of a Relationship
+- **Primary Key:** The unique identifier for a record (e.g., Student ID, Order Number).
+- **Linked Records (Foreign Keys):** How Table A "points" to Table B.
+- **Relationship Types:**
+    - **One-to-Many (1:N):** One *Teacher* has many *Students*. (Most common).
+    - **Many-to-Many (N:M):** Many *Students* attend many *Classes*. (Requires a "Junction Table").
+
+
+
+## 1.3 Computed Fields: The "Smart" Data
+- **Lookup:** Bringing a value from Table A into Table B via a link.
+- **Rollup:** Performing a calculation (Sum, Average, Count) on linked records. 
+    - *Example:* A "Project" table rolling up the total "Cost" from a linked "Tasks" table.
+
+---
+
+# 2. Lab: Building the "Relational Engine" (2 Hours)
+
+## 2.1 Schema Design (45 mins)
+* **Activity:** Map the database for the "Green Campus Exchange" (from the case study).
+* **Task:** Identify the 3 core tables: `Users`, `Items`, and `Categories`. 
+* **Logical Mapping:** Sketch the connections. One `Category` has many `Items`. One `User` owns many `Items`.
+
+## 2.2 Implementing in Airtable (45 mins)
+* **Step 1:** Create the tables and set the **Primary Field** (usually a Formula or ID).
+* **Step 2:** Use the **"Link to another record"** field type to connect them.
+* **Step 3:** Use a **Rollup** to count how many items each User has currently listed.
+
+## 2.3 The Logic Test (30 mins)
+* **Challenge:** "If a user deletes their account, what happens to their items?" 
+* **Practice:** Students must demonstrate how to filter a view to show only "Items from Users with a Rating > 4."
+
+---
+
+# 3. Independent Study: Your Project's Blueprint
+
+::: {.callout-important}
+### Assignment Due: Week 4
+Build the **Full Database Schema** for your personal project in Airtable.
+:::
+
+**Requirements:**
+1.  **At least 3 Tables** with logical naming conventions.
+2.  **Functional Links:** Every table must be connected to at least one other.
+3.  **Computed Intelligence:** Use at least one **Rollup** and one **Formula** (e.g., a "Days Since Created" calculation).
+4.  **Test Data:** Add 5 realistic records per table.
+
+---
+
+# 💡 Teacher's Tip
+*Data modeling is abstract. Use the **"Airtable Schema View"** constantly to show students the 'web' they are building. If their schema looks like a 'Star' or a 'Chain,' they are on the right track. If it looks like a 'Spaghetti bowl,' they need to normalize.*
+
+---
+
+**Next Week:** *Advanced Backend & APIs with Xano. We move beyond Airtable to learn about server-side logic.*

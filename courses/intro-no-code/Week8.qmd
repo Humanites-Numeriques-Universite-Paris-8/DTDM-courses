@@ -1,0 +1,87 @@
+---
+title: "Week 8: AI-Native Development"
+subtitle: "Orchestrating Intelligence with LLMs and Agentic Workflows"
+author: "Master's in No-Code Programming"
+date: "2026-05-13"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: quartz
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Differentiate between **Deterministic Logic** (Make.com) and **Probabilistic Logic** (AI Agents).
+2.  Implement **RAG (Retrieval-Augmented Generation)** to connect AI to private data.
+3.  Master **Prompt Engineering** for structured data output (JSON).
+4.  Orchestrate multi-step AI workflows using **Stack AI**.
+
+---
+
+# 1. Lecture: The Third Wave of No-Code (1 Hour)
+
+## 1.1 From Chatbots to Agents
+In 2026, we don't just "chat" with AI; we build **Agents**.
+* **The Chatbot:** Answers questions based on general knowledge.
+* **The Agent:** Has a goal, access to tools (APIs), and can execute tasks autonomously.
+* **The Architect's Role:** Defining the "Guardrails" and the "Tools" the agent can use.
+
+## 1.2 RAG: Giving the AI a Memory
+Traditional LLMs have a cutoff date. **Retrieval-Augmented Generation (RAG)** allows the AI to "read" your specific Airtable or PDF files before answering.
+* **Step 1:** User asks a question.
+* **Step 2:** System searches your database for relevant "Chunks."
+* **Step 3:** System sends the question + the chunks to the LLM.
+* **Step 4:** AI provides an answer based *only* on your data.
+
+
+
+## 1.3 Prompt Engineering for Developers
+We treat prompts as "Functions."
+* **System Prompts:** Defining the persona (e.g., "You are a Senior Sustainability Auditor").
+* **Output Formatting:** Forcing the AI to respond in **JSON** so it can be parsed by Make.com or Softr.
+
+---
+
+# 2. Lab: Building an Intelligent Agent (2 Hours)
+
+## 2.1 Stack AI Orchestration (45 mins)
+* **Activity:** Creating a "Content Categorization Agent."
+* **Task:** Build a flow in Stack AI that takes a "User Input" and a "Knowledge Base" (your Airtable).
+* **Logic:** The AI must look at the user's item description and categorize it into the correct campus department.
+
+
+
+## 2.2 Connecting AI to the Stack (45 mins)
+* **Activity:** The API Bridge.
+* **Task:** Export your Stack AI flow as an **API Endpoint**.
+* **Integration:** In **Make.com**, add a module that sends new Airtable records to Stack AI and writes the "AI Summary" back into a specific Airtable field.
+
+## 2.3 Testing Hallucinations (30 mins)
+* **Activity:** "Red Teaming."
+* **Task:** Try to trick your agent into giving wrong advice or breaking character.
+* **Fix:** Refine the **System Prompt** to add "Negative Constraints" (e.g., "Do not mention prices outside of the $0-$500 range").
+
+---
+
+# 3. Independent Study: The "Intelligence" Feature
+
+::: {.callout-important}
+### Assignment Due: Week 9
+Your MVP must now include one **AI-Native feature**.
+:::
+
+**Submission Requirements:**
+1.  **AI Utility:** The feature must provide actual value (e.g., auto-tagging, sentiment analysis, smart matching).
+2.  **Prompt Documentation:** Include the "System Prompt" you used in your Technical Dossier.
+3.  **Data Loop:** The AI must interact with your data (Read from or Write to your database).
+
+---
+
+# 💡 Teacher's Tip
+*AI can be unpredictable. Remind students: **"AI is your Junior Developer, not your Architect."** They must verify the AI's output. Encourage the use of 'Human-in-the-loop' workflows where an Admin must 'Approve' an AI-generated text before it goes live in the Softr app.*
+
+---
+
+**Next Week:** *Co-Creation Sprint. We move into the intensive "Build & Audit" phase where you collaborate to polish your MVPs.*

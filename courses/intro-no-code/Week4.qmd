@@ -1,0 +1,84 @@
+---
+title: "Week 4: Advanced Backend & The API Economy"
+subtitle: "Moving Beyond Spreadsheets to Scalable Server-Side Logic"
+author: "Master's in No-Code Programming"
+date: "2026-04-15"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: vapor
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Explain the difference between a **Database** (Storage) and a **Backend** (Logic + Storage).
+2.  Understand the anatomy of a **REST API Request** (Method, Endpoint, Headers, Body).
+3.  Parse and structure **JSON** data objects.
+4.  Build and test a custom **API Endpoint** in Xano.
+
+---
+
+# 1. Lecture: The Architecture of the Web (1 Hour)
+
+## 1.1 Why Xano? (Airtable vs. Xano)
+While Airtable is an excellent "Internal Tool" database, Xano is a **Turing-complete backend**. 
+- **Scalability:** Handling millions of records without performance lag.
+- **Logic at the Source:** Processing data *before* it reaches the frontend (e.g., calculating a discount server-side).
+- **Security:** Hiding complex business logic from the browser's "Inspect Element."
+
+## 1.2 The API Conversation: "Hello, JSON"
+An API is a conversation between two machines.
+- **HTTP Methods:** - `GET` (Give me data).
+    - `POST` (Create new data).
+    - `PATCH` (Update existing data).
+    - `DELETE` (Remove data).
+- **JSON:** The "English" of the internet. 
+    - *Example:* `{"status": "success", "data": {"id": 101, "name": "Sustainability Hub"}}`
+
+## 1.3 Authentication & Security
+- **API Keys:** The "ID Badge" for software.
+- **Bearer Tokens:** How we keep user data private in a No-Code environment.
+
+---
+
+# 2. Lab: Building Your First Professional API (2 Hours)
+
+## 2.1 Xano Environment Setup (30 mins)
+* **Activity:** Workspace creation and Data Import.
+* **Task:** Import your CSV or Airtable data into Xano. Observe the "Schema" automatically created.
+
+## 2.2 Crafting the Endpoint (1 Hour)
+* **Step 1:** Create a `GET` endpoint named `/get_my_items`.
+* **Step 2:** Add a **Query Parameter** (e.g., `category_id`).
+* **Step 3:** Use the **Function Stack** to filter the database records based on that parameter.
+* **Step 4:** **Run & Debug:** Use Xano’s built-in debugger to see the "Raw JSON" output.
+
+## 2.3 Documentation & Testing (30 mins)
+* **Activity:** Exploring **Swagger**.
+* **Task:** Generate the automatic API documentation. Test the endpoint using an external tool (like **Insomnia** or **Postman**) to prove it works outside of Xano.
+
+---
+
+# 3. Independent Study: Milestone 1 Submission
+
+::: {.callout-important}
+### Assignment Due: Week 5
+This is your first major grade. You must submit your **Technical Architecture Blueprint**.
+:::
+
+**Submission Requirements:**
+1.  **Backend URL:** A working Xano API endpoint link.
+2.  **Logic Schema:** A PDF showing your Airtable/Xano tables and how they link.
+3.  **API Map:** A short description of the inputs/outputs of your primary endpoint.
+4.  **Security Note:** A brief explanation of how you are protecting user data (e.g., using Xano's Auth system).
+
+---
+
+# 💡 Teacher's Tip
+*This is the "Valley of Despair" week. Students will find JSON and API headers intimidating. Use the **"Postman Analogy"**: An API is like sending a letter. The Endpoint is the address, the Method is the type of delivery, and the Body is the letter inside. If the address is wrong, you get a 404 Error!*
+
+---
+
+**Next Week:** *Frontend Mastery with Softr. We finally connect this powerful backend to a beautiful user interface.*

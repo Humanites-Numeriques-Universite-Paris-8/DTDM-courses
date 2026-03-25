@@ -1,0 +1,88 @@
+---
+title: "Week 11: Security, Ethics & Governance"
+subtitle: "Building Professional-Grade Trust in No-Code Systems"
+author: "Master's in No-Code Programming"
+date: "2026-06-03"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    code-fold: false
+---
+
+# 🎯 Learning Objectives
+By the end of this session, students will be able to:
+1.  Implement **Privacy by Design** principles (GDPR 2026 Compliance).
+2.  Identify and mitigate **Security Vulnerabilities** in No-Code stacks (API Leaks, Permissions).
+3.  Critically evaluate **Vendor Lock-in** and Data Sovereignty risks.
+4.  Conduct an **Ethical Audit** of AI-augmented workflows (Bias & Transparency).
+
+---
+
+# 1. Lecture: The "Shadow IT" Responsibility (1 Hour)
+
+## 1.1 Beyond the "Playground" Phase
+No-Code is no longer just for prototypes. In 2026, these apps handle real user data.
+* **Data Sovereignty:** Where is your data actually stored? (AWS US-East vs. EU-Central).
+* **Vendor Lock-in:** The "No-Code Trap." What happens if your platform triples its price or goes bankrupt? 
+    * *Strategy:* Designing "Headless" architectures (separate DB and UI) to allow for easier migration.
+
+## 1.2 Security Pitfalls in No-Code
+* **API Key Exposure:** Never put a "Secret Key" in a Softr or FlutterFlow frontend. It can be found in 2 clicks via "Inspect Element."
+* **Airtable View Leakage:** Sharing a "Base" link vs. a "Filtered View" link.
+* **Orphaned Accounts:** Ensuring that when a user is deleted in the Frontend, their sensitive data is also purged from the Backend (Xano/Airtable).
+
+## 1.3 The Ethics of AI Agents
+* **Algorithmic Bias:** Does your "Green Campus" AI favor certain categories or languages?
+* **Transparency:** Does the user know they are interacting with an AI agent?
+* **Environmental Impact:** Understanding the "Carbon Cost" of running 1,000 AI automations daily.
+
+
+
+---
+
+# 2. Workshop: The "Technical Audit" (2 Hours)
+
+## 2.1 The Security Scan (45 mins)
+* **Activity:** "Penetration Testing" your own app.
+* **Task:** Check every **API Call** in your Make.com and Xano logs. Is any sensitive info (Passwords, IDs) being sent in "Plain Text"?
+* **Fix:** Implement **Environment Variables** for all keys. Ensure all Softr blocks have "Logged-in User" visibility enabled.
+
+## 2.2 The GDPR "Right to be Forgotten" (45 mins)
+* **Activity:** Automating Compliance.
+* **Task:** Build a **Make.com Scenario** triggered by a "Delete Account" button.
+* **Logic:** The scenario must: 
+    1. Delete the User from Softr.
+    2. Delete the User's records from Airtable.
+    3. Send a confirmation email.
+    *This is the difference between a student project and a professional product.*
+
+## 2.3 Governance & Documentation (30 mins)
+* **Activity:** "The Handover Document."
+* **Task:** Fill out the **Security Section** of your Final Technical Dossier.
+* **Logic:** List every tool in your stack and their respective data processing locations.
+
+---
+
+# 3. Independent Study: Final Dossier Completion
+
+::: {.callout-important}
+### Assignment Due: Week 12 (Before Demo Day)
+Submit your **Final Technical Dossier (PDF)**.
+:::
+
+**Dossier Requirements:**
+1.  **Architecture Map:** Final diagram including AI agents and API flows.
+2.  **Security Audit:** A 1-page summary of how you secured user data.
+3.  **Ethical Reflection:** A short paragraph on how you handled potential AI bias.
+4.  **Deployment URL:** The live, production-ready link.
+
+---
+
+# 💡 Teacher's Tip
+*Security is often seen as 'boring' compared to 'building.' Remind students: **'The fastest way to lose your job as a No-Code Architect is a data leak.'** In 2026, trust is the most expensive currency. Use a real-world example of a recent No-Code breach (e.g., an unsecured Firebase DB) to show the stakes.*
+
+---
+
+**Next Week:** *FINAL DEMO DAY. Pitching, Live Demos, and Technical Defense.*
