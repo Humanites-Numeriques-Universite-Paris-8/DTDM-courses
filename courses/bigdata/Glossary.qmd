@@ -1,0 +1,89 @@
+---
+title: "Technical Glossary: Big Data Analytics"
+subtitle: "Foundational Concepts for Data Scientists & Analysts"
+author: "Faculty of Data Science"
+date: "2026"
+format:
+  html:
+    toc: true
+    theme: cosmo
+---
+
+# 1. The Nature of Data
+
+### The 5 Vs of Big Data
+The framework used to define the "Big" in Big Data:
+* **Volume:** The sheer scale of data (Terabytes to Zettabytes).
+* **Velocity:** The speed at which data is generated and processed (Real-time streams).
+* **Variety:** The different forms of data (Structured, Semi-structured, Unstructured).
+* **Veracity:** The quality, accuracy, and trustworthiness of the data.
+* **Value:** The ultimate goal—turning raw data into actionable insights.
+
+### Data Types (Structured vs. Unstructured)
+* **Structured:** Data that fits into predefined models (SQL tables, CSVs).
+* **Semi-structured:** Data with some organizational properties but no rigid schema (JSON, XML).
+* **Unstructured:** Data with no predefined model (Images, Videos, PDF text, Social Media posts).
+
+---
+
+# 2. Data Engineering & Management
+
+### ETL vs. ELT
+The two primary methods for moving data from source to storage:
+* **ETL (Extract, Transform, Load):** Data is cleaned and transformed *before* being loaded into a data warehouse. Traditional and structured.
+* **ELT (Extract, Load, Transform):** Data is loaded into a data lake in its raw form and transformed *later* as needed. Modern and scalable.
+
+
+
+### Data Lakehouse
+A modern architectural pattern (popularized by Databricks) that combines the low-cost storage of a **Data Lake** with the high-performance data management of a **Data Warehouse**.
+* **Why it matters:** It supports both BI (Business Intelligence) and AI (Machine Learning) on a single platform.
+
+
+
+[Image of data lakehouse architecture]
+
+
+---
+
+# 3. Data Mining & Analytics
+
+### Supervised vs. Unsupervised Learning
+* **Supervised (Classification/Regression):** The model is trained on labeled data (e.g., predicting if an email is "Spam" or "Not Spam").
+* **Unsupervised (Clustering/Association):** The model finds hidden patterns in unlabeled data (e.g., grouping customers into "segments" based on behavior).
+
+
+
+### Exploratory Data Analysis (EDA)
+An approach to analyzing datasets to summarize their main characteristics, often using visual methods. 
+* **Objective:** To discover patterns, spot anomalies, and test hypotheses before applying complex mining models.
+
+---
+
+# 4. Visualisation & Storytelling
+
+### Visual Perception Principles (Gestalt Laws)
+Principles that describe how the human eye perceives visual elements. 
+* **Proximity:** Objects close to each other are perceived as a group.
+* **Similarity:** Objects that look alike are perceived as related.
+* **Why it matters:** Essential for designing intuitive dashboards that don't overload the viewer's "cognitive load."
+
+### Data Storytelling
+The practice of building a narrative around a set of data and its accompanying visualizations to help convey the "Why" behind the "What."
+* **Components:** Data + Visuals + Narrative.
+
+---
+
+# 5. Methodological Rigour & Ethics
+
+### Bias & Fair Analytics
+The systematic error introduced into sampling or testing by selecting or encouraging one outcome or answer over others.
+* **Data Mining Risk:** If historical data is biased (e.g., hiring data), the mining model will automate that bias.
+
+### Differential Privacy
+A system for sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals.
+
+::: {.callout-tip}
+### Pro-Tip
+In the professional world, a "Data Scientist" builds the models, but a "Big Data Architect" builds the pipelines that allow those models to run at scale. This glossary covers both perspectives.
+:::

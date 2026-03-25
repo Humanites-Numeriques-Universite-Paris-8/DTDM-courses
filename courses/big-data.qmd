@@ -1,96 +1,82 @@
 ---
-title: "Analysis, Management, Data Mining, and Visualisation of Big Data"
-subtitle: "Analyse, gestion, extraction et visualisation des mégadonnées"
+title: "Course Specification: Analysis, Management, Data Mining, and Visualisation of Big Data"
+subtitle: "Master's Degree Program - Core Module"
+author:
+  - name: Orélie Desfriches Doria
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+  - name: Samuel Szoniecky
+    affiliations:
+      - name: Laboratoire paragraphe
+      - name: Département Information-Documentation
+      - name: Université Paris 8 Vincennes-Saint-Denis
+date: "2026"
+format:
+  html:
+    toc: true
+    theme: cosmo
 ---
 
-## Présentation du cours
+# 1. Module Overview
 
-Le cours *Big Data* forme les étudiants aux techniques et aux outils permettant de collecter, stocker, analyser et visualiser des volumes massifs de données. Il aborde les dimensions techniques (architecture, traitement), analytiques (exploration, modélisation) et décisionnelles (visualisation, restitution) des données volumineuses, en lien direct avec les enjeux stratégiques des organisations.
+This module provides an intensive introduction to the lifecycle of Big Data. Students will transition from handling static, small-scale datasets to managing the velocity, volume, and variety of modern data environments. The course balances technical rigors (data engineering) with creative storytelling (data visualization).
 
-## Objectifs pédagogiques
+# 2. Learning Outcomes
 
-À l'issue de ce cours, les étudiants seront capables de :
+By the end of this course, students will be able to: 1. **Architect** data pipelines for acquisition, cleaning, and transformation. 2. **Evaluate** storage solutions for structured, semi-structured, and unstructured data (SQL vs. NoSQL). 3. **Apply** data mining techniques (Classification, Clustering, Regression) to extract patterns. 4. **Synthesize** complex findings into interactive dashboards and visual stories. 5. **Critique** data practices through the lens of methodological rigor and ethical responsibility.
 
-- Comprendre les architectures et les technologies de stockage et de traitement des Big Data
-- Appliquer des techniques d'exploration et d'extraction de connaissances (*data mining*)
-- Utiliser des outils d'analyse de données (Python/pandas, SQL, Apache Spark)
-- Concevoir et produire des visualisations de données efficaces et adaptées à leur public
-- Interpréter les résultats d'une analyse de données en vue de la prise de décision
-- Prendre en compte les enjeux éthiques et de confidentialité liés aux données massives
+------------------------------------------------------------------------
 
-## Contenu du cours
+# 3. The 12-Week Roadmap
 
-### Module 1 – Introduction aux Big Data
+| Week | Phase | Topic | Key Tools (2026 Stack) |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **W1** | **Foundations** | The 5 Vs of Big Data: Challenges & Opportunities | Apache Spark, Hadoop MapReduce |
+| **W2** | **Foundations** | Data Acquisition & ETL Workflows (Cleaning & Prep) | Python (Pandas), dbt |
+| **W3** | **Management** | Storage: SQL vs. NoSQL & Data Lakes | Snowflake, MongoDB, S3 |
+| **W4** | **Management** | Processing Large-Scale Data Environments | Databricks, PySpark |
+| **W5** | **Analysis** | Exploratory Data Analysis (EDA) & Descriptive Stats | Jupyter Labs, Seaborn |
+| **W6** | **Mining** | Supervised Learning: Classification & Regression | Scikit-Learn |
+| **W7** | **Mining** | Unsupervised Learning: Clustering & Association | Scikit-Learn |
+| **W8** | **Mining** | Interpreting Patterns, Trends & Relationships | SHAP, LIME (Model XAI) |
+| **W9** | **Visualisation** | Principles of Visual Perception & Design | Tableau / Power BI |
+| **W10** | **Visualisation** | Interactive Dashboards & Real-time Monitoring | Streamlit / Plotly Dash |
+| **W11** | **Strategy** | Visual Storytelling & Decision Support | Canva, Quarto (Interactive Reports) |
+| **W12** | **Capstone** | Final Project Defense: Real-world Big Data Case | Full Stack |
 
-- Les 5 V du Big Data : Volume, Vitesse, Variété, Véracité, Valeur
-- Panorama des sources de données : IoT, réseaux sociaux, logs, capteurs, bases transactionnelles
-- Architectures Big Data : entrepôts de données (*data warehouses*), lacs de données (*data lakes*), architectures Lambda et Kappa
-- Présentation de l'écosystème Hadoop / Spark / Kafka
+------------------------------------------------------------------------
 
-### Module 2 – Gestion et traitement des données
+# 4. Assessment Methodology
 
-- Modèles de données : relationnel, NoSQL (document, clé-valeur, colonne, graphe)
-- Introduction aux bases de données distribuées : MongoDB, Cassandra, Elasticsearch
-- Traitement en temps réel vs. traitement par lots (*batch processing*)
-- Qualité et gouvernance des données : nettoyage, déduplication, catalogage
-- Initiation à Apache Spark et PySpark
+### 4.1 Continuous Assessment (40%)
 
-### Module 3 – Analyse et Data Mining
+-   **Bi-weekly Coding Labs (20%):** Hands-on data cleaning and mining exercises.
+-   **Mid-term Data Audit (20%):** Critiquing a provided "dirty" dataset for ethical and structural flaws.
 
-- Processus KDD (*Knowledge Discovery in Databases*) et CRISP-DM
-- Statistiques descriptives et exploratoires appliquées aux Big Data
-- Algorithmes de clustering : k-means, DBSCAN, classification hiérarchique
-- Algorithmes de classification supervisée : arbres de décision, forêts aléatoires, SVM
-- Détection d'anomalies et analyse de séries temporelles
-- Introduction au *text mining* et à l'analyse de sentiments
-- Initiation au machine learning avec scikit-learn
+### 4.2 Final Capstone Project (60%)
 
-### Module 4 – Visualisation des données
+Students must select a realistic large-scale dataset (e.g., Global Weather, Logistics, or Financial Transactions) and perform a full "Raw-to-Insight" pipeline.
 
-- Principes de la visualisation de données : grammaire des graphiques, perception visuelle
-- Outils de visualisation : Tableau, Power BI, Matplotlib, Seaborn, Plotly, D3.js
-- Conception de tableaux de bord (*dashboards*) interactifs
-- Storytelling avec les données (*data storytelling*)
-- Visualisation de données géospatiales
-- Bonnes pratiques et pièges courants de la visualisation
+-   **Technical Pipeline (20%):** The ETL and Processing logic.
+-   **Mining Model (20%):** The choice and accuracy of the mining technique.
+-   **Visual Story (20%):** An interactive dashboard presenting the decision-support findings.
 
-## Technologies et outils abordés
+------------------------------------------------------------------------
 
-| Catégorie | Outils |
-|---|---|
-| Langages | Python, SQL |
-| Traitement | Apache Spark, PySpark, Pandas |
-| Stockage | MongoDB, PostgreSQL, Elasticsearch |
-| Visualisation | Tableau, Power BI, Plotly, Seaborn |
-| Environnements | Jupyter Notebook, Google Colab |
+# 5. Ethical & Responsible Use
 
-## Méthodes pédagogiques
+In 2026, Big Data is inseparable from **AI Ethics**. Throughout the module, we will address:
 
-| Format | Description |
-|---|---|
-| Cours magistraux | Concepts théoriques et architectures Big Data |
-| Travaux pratiques | Manipulation de données réelles avec Python et Spark |
-| Ateliers de visualisation | Création de dashboards et de graphiques interactifs |
-| Projet de groupe | Analyse complète d'un jeu de données de bout en bout |
+-   **Bias Mitigation:** Ensuring datasets do not reinforce historical inequities.
 
-## Évaluation
+-   **Privacy-Preserving Analytics:** Introduction to Differential Privacy.
 
-- **Projet d'analyse de données** (de la collecte à la visualisation) – 50 %
-- **Rapport technique** sur les choix méthodologiques et les résultats – 30 %
-- **Présentation orale** des résultats et du tableau de bord – 20 %
+-   **Rigorous Validation:** Avoiding "data dredging" (p-hacking).
 
-## Ressources recommandées
+::: callout-note
+### Prerequisites
 
-- **Ouvrages** :
-  - Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* (O'Reilly)
-  - Edward Tufte, *The Visual Display of Quantitative Information*
-  - Tom White, *Hadoop: The Definitive Guide* (O'Reilly)
-- **En ligne** :
-  - [Kaggle](https://www.kaggle.com) – jeux de données et tutoriels
-  - [Towards Data Science](https://towardsdatascience.com) (Medium)
-  - Documentation officielle Apache Spark ([spark.apache.org](https://spark.apache.org))
-  - Fast.ai – cours de deep learning accessibles
-
-## Prérequis
-
-Une connaissance de base de Python et des notions de statistiques descriptives sont souhaitables. Les étudiants sans bagage technique seront accompagnés lors d'une mise à niveau en début de cours.
+Basic proficiency in Python and SQL is expected. Students unfamiliar with these should complete the "Data Prep Bootcamp" in the Welcome Kit.
+:::
