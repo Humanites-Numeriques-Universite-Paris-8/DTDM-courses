@@ -1,0 +1,89 @@
+---
+title: "Digital Transformation Management"
+subtitle: "2 jours de cours magistraux + 3 jours de workshop"
+---
+
+## Présentation du cours
+
+Ce cours est le cœur stratégique du Master DTDM. Il forme les étudiants au pilotage de la transformation numérique des organisations, en combinant apports théoriques approfondis et mise en pratique intensive lors d'un workshop immersif de trois jours. Les étudiants y développent une vision à la fois stratégique et opérationnelle de la conduite du changement numérique.
+
+## Format pédagogique
+
+Ce module se déroule en deux temps complémentaires :
+
+| Phase | Durée | Format |
+|---|---|---|
+| Cours magistraux | 2 jours | Apports conceptuels, études de cas, discussions |
+| Workshop intensif | 3 jours | Mise en situation, projet collectif, livrables opérationnels |
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Définir et articuler une vision stratégique de la transformation numérique
+- Analyser la maturité numérique d'une organisation et identifier les leviers de transformation
+- Concevoir et piloter une feuille de route de transformation numérique (*digital roadmap*)
+- Gérer le changement organisationnel lié à la numérisation
+- Animer et coordonner des équipes pluridisciplinaires dans des contextes de transformation
+- Évaluer les risques et les opportunités liés aux technologies émergentes
+
+## Contenu des cours magistraux (2 jours)
+
+### Jour 1 – Stratégie de la transformation numérique
+
+- Définitions et enjeux de la transformation numérique : au-delà de la digitalisation
+- Modèles de maturité numérique (Gartner, MIT, McKinsey)
+- Les dimensions de la transformation : technologique, organisationnelle, culturelle et humaine
+- Études de cas : transformations réussies et échecs notables
+- Gouvernance numérique et rôle des parties prenantes (DSI, CDO, DRH, direction générale)
+
+### Jour 2 – Management opérationnel de la transformation
+
+- Conduite du changement : modèles de Kotter, ADKAR, Lewin
+- Gestion de la résistance au changement et communication interne
+- Méthodes agiles appliquées à la transformation (Scrum, SAFe, OKR)
+- Financement et ROI de la transformation numérique
+- Indicateurs de performance et tableaux de bord (*KPI dashboard*)
+
+## Contenu du workshop intensif (3 jours)
+
+### Jour 3 – Diagnostic et cadrage du projet
+
+- Constitution des équipes et attribution des organisations-cibles
+- Réalisation d'un audit de maturité numérique (grilles, entretiens simulés, analyse documentaire)
+- Identification des axes prioritaires de transformation
+- Première restitution intermédiaire
+
+### Jour 4 – Conception de la feuille de route
+
+- Définition des initiatives de transformation (quick wins vs. projets structurants)
+- Planification et phasage de la transformation
+- Identification des ressources nécessaires et des parties prenantes clés
+- Ateliers de design collaboratif (*service design*, *business model canvas*)
+
+### Jour 5 – Présentation et soutenance
+
+- Finalisation des livrables : document de stratégie et présentation exécutive
+- Soutenance devant un jury composé d'enseignants et de professionnels
+- Feedback collectif et clôture du workshop
+
+## Technologies et méthodes abordées
+
+- **Outils de diagnostic** : questionnaires de maturité numérique, matrices SWOT/PESTEL
+- **Outils collaboratifs** : Miro, Notion, Google Workspace, Microsoft 365
+- **Méthodes** : design thinking, lean startup, OKR, balanced scorecard
+- **Frameworks** : TOGAF simplifié, ITIL pour la gestion des services numériques
+
+## Évaluation
+
+- **Livrable écrit** (plan de transformation numérique) – 40 %
+- **Présentation orale** (soutenance devant jury) – 40 %
+- **Participation et engagement** au workshop – 20 %
+
+## Ressources recommandées
+
+- George Westerman, Didier Bonnet, Andrew McAfee, *Leading Digital* (Harvard Business Review Press)
+- McKinsey Global Institute, *The Digital Advantage* (rapport)
+- John Kotter, *Leading Change* (Harvard Business Review Press)
+- MIT Sloan Management Review – articles sur la transformation numérique
+- Cigref, *Entreprises et numérique* (rapports annuels)

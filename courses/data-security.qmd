@@ -1,0 +1,89 @@
+---
+title: "Data and Transaction Security"
+subtitle: "Cybersécurité, Blockchain et NFT"
+---
+
+## Présentation du cours
+
+Ce cours aborde les enjeux de sécurité dans les environnements numériques contemporains sous trois angles complémentaires : la **cybersécurité** pour la protection des données et des systèmes d'information, la **blockchain** comme technologie de registre distribué garantissant l'intégrité des transactions, et les **NFT** (Non-Fungible Tokens) comme nouvelle forme d'actif numérique. Les étudiants y acquièrent des connaissances théoriques et pratiques pour protéger et sécuriser les systèmes et transactions numériques.
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Comprendre les principales menaces et vulnérabilités qui pèsent sur les systèmes d'information
+- Mettre en œuvre des bonnes pratiques de cybersécurité au niveau organisationnel
+- Expliquer les fondements techniques de la blockchain et ses applications
+- Distinguer les différents types de blockchain (publique, privée, de consortium)
+- Analyser les usages et les enjeux des NFT dans les économies numériques
+- Évaluer les risques juridiques et réglementaires associés aux transactions numériques
+
+## Contenu du cours
+
+### Module 1 – Cybersécurité : fondamentaux et pratiques
+
+- Panorama des cybermenaces actuelles : phishing, ransomware, attaques DDoS, ingénierie sociale
+- Principes fondamentaux de la sécurité de l'information : confidentialité, intégrité, disponibilité (trilogie CIA)
+- Politiques de sécurité des systèmes d'information (PSSI)
+- Normes et référentiels : ISO 27001, NIST Cybersecurity Framework, recommandations ANSSI
+- Sécurité des applications web et des API
+- Gestion des incidents et plans de continuité d'activité (PCA / PRA)
+
+### Module 2 – Cryptographie et sécurité des transactions
+
+- Principes de la cryptographie symétrique et asymétrique
+- Signatures numériques et certificats SSL/TLS
+- Hachage cryptographique et intégrité des données
+- Protocoles sécurisés : HTTPS, SSH, PGP
+- Zero-knowledge proofs et privacy-preserving technologies
+
+### Module 3 – Blockchain : technologie et applications
+
+- Histoire et principes du Bitcoin et de la blockchain
+- Fonctionnement d'une blockchain : blocs, nœuds, consensus (Proof of Work, Proof of Stake)
+- Smart contracts et la plateforme Ethereum
+- Blockchains privées et de consortium : Hyperledger Fabric, Quorum
+- Applications sectorielles : finance, supply chain, santé, administration
+- Limites et défis de la blockchain (scalabilité, consommation énergétique)
+
+### Module 4 – NFT et économie numérique tokenisée
+
+- Qu'est-ce qu'un NFT ? Définition, standards techniques (ERC-721, ERC-1155)
+- Marchés et plateformes NFT : OpenSea, Rarible, Foundation
+- Usages des NFT : art numérique, gaming, identité numérique, tickets d'événements
+- Enjeux juridiques des NFT : propriété intellectuelle, droit d'auteur, régulation
+- DeFi (Finance Décentralisée) : principes et risques
+- Cadre réglementaire européen : règlement MiCA (Markets in Crypto-Assets)
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Cours magistraux | Apports théoriques et techniques |
+| Travaux pratiques | Simulation d'audits de sécurité, déploiement d'un smart contract en environnement de test |
+| Études de cas | Analyse de cyberattaques réelles, cas de fraudes liés aux NFT |
+| Conférences invitées | Intervenants issus du monde de la cybersécurité et de la fintech |
+
+## Évaluation
+
+- **Audit de sécurité** (rapport écrit sur un système fictif ou réel) – 35 %
+- **Projet blockchain** (déploiement et documentation d'un smart contract en test) – 35 %
+- **Note de synthèse** sur un enjeu de régulation des crypto-actifs – 30 %
+
+## Ressources recommandées
+
+- **Cybersécurité** :
+  - [ANSSI – Guides et bonnes pratiques](https://www.ssi.gouv.fr/guide/)
+  - Bruce Schneier, *Secrets and Lies* (Wiley)
+  - OWASP Top 10 (owasp.org)
+- **Blockchain** :
+  - Satoshi Nakamoto, *Bitcoin: A Peer-to-Peer Electronic Cash System* (whitepaper original)
+  - Primavera De Filippi & Aaron Wright, *Blockchain and the Law* (Harvard University Press)
+  - Documentation officielle Ethereum ([ethereum.org](https://ethereum.org))
+- **NFT et crypto-actifs** :
+  - Règlement MiCA (UE 2023/1114) – [eur-lex.europa.eu](https://eur-lex.europa.eu)
+  - [OpenSea Blog](https://opensea.io/blog) (tendances et enjeux du marché NFT)
+
+## Prérequis
+
+Des notions de base en informatique et en réseaux sont souhaitables, sans être obligatoires. Une appétence pour les sujets techniques est recommandée.

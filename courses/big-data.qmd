@@ -1,0 +1,96 @@
+---
+title: "Analysis, Management, Data Mining, and Visualisation of Big Data"
+subtitle: "Analyse, gestion, extraction et visualisation des mégadonnées"
+---
+
+## Présentation du cours
+
+Le cours *Big Data* forme les étudiants aux techniques et aux outils permettant de collecter, stocker, analyser et visualiser des volumes massifs de données. Il aborde les dimensions techniques (architecture, traitement), analytiques (exploration, modélisation) et décisionnelles (visualisation, restitution) des données volumineuses, en lien direct avec les enjeux stratégiques des organisations.
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Comprendre les architectures et les technologies de stockage et de traitement des Big Data
+- Appliquer des techniques d'exploration et d'extraction de connaissances (*data mining*)
+- Utiliser des outils d'analyse de données (Python/pandas, SQL, Apache Spark)
+- Concevoir et produire des visualisations de données efficaces et adaptées à leur public
+- Interpréter les résultats d'une analyse de données en vue de la prise de décision
+- Prendre en compte les enjeux éthiques et de confidentialité liés aux données massives
+
+## Contenu du cours
+
+### Module 1 – Introduction aux Big Data
+
+- Les 5 V du Big Data : Volume, Vitesse, Variété, Véracité, Valeur
+- Panorama des sources de données : IoT, réseaux sociaux, logs, capteurs, bases transactionnelles
+- Architectures Big Data : entrepôts de données (*data warehouses*), lacs de données (*data lakes*), architectures Lambda et Kappa
+- Présentation de l'écosystème Hadoop / Spark / Kafka
+
+### Module 2 – Gestion et traitement des données
+
+- Modèles de données : relationnel, NoSQL (document, clé-valeur, colonne, graphe)
+- Introduction aux bases de données distribuées : MongoDB, Cassandra, Elasticsearch
+- Traitement en temps réel vs. traitement par lots (*batch processing*)
+- Qualité et gouvernance des données : nettoyage, déduplication, catalogage
+- Initiation à Apache Spark et PySpark
+
+### Module 3 – Analyse et Data Mining
+
+- Processus KDD (*Knowledge Discovery in Databases*) et CRISP-DM
+- Statistiques descriptives et exploratoires appliquées aux Big Data
+- Algorithmes de clustering : k-means, DBSCAN, classification hiérarchique
+- Algorithmes de classification supervisée : arbres de décision, forêts aléatoires, SVM
+- Détection d'anomalies et analyse de séries temporelles
+- Introduction au *text mining* et à l'analyse de sentiments
+- Initiation au machine learning avec scikit-learn
+
+### Module 4 – Visualisation des données
+
+- Principes de la visualisation de données : grammaire des graphiques, perception visuelle
+- Outils de visualisation : Tableau, Power BI, Matplotlib, Seaborn, Plotly, D3.js
+- Conception de tableaux de bord (*dashboards*) interactifs
+- Storytelling avec les données (*data storytelling*)
+- Visualisation de données géospatiales
+- Bonnes pratiques et pièges courants de la visualisation
+
+## Technologies et outils abordés
+
+| Catégorie | Outils |
+|---|---|
+| Langages | Python, SQL |
+| Traitement | Apache Spark, PySpark, Pandas |
+| Stockage | MongoDB, PostgreSQL, Elasticsearch |
+| Visualisation | Tableau, Power BI, Plotly, Seaborn |
+| Environnements | Jupyter Notebook, Google Colab |
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Cours magistraux | Concepts théoriques et architectures Big Data |
+| Travaux pratiques | Manipulation de données réelles avec Python et Spark |
+| Ateliers de visualisation | Création de dashboards et de graphiques interactifs |
+| Projet de groupe | Analyse complète d'un jeu de données de bout en bout |
+
+## Évaluation
+
+- **Projet d'analyse de données** (de la collecte à la visualisation) – 50 %
+- **Rapport technique** sur les choix méthodologiques et les résultats – 30 %
+- **Présentation orale** des résultats et du tableau de bord – 20 %
+
+## Ressources recommandées
+
+- **Ouvrages** :
+  - Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* (O'Reilly)
+  - Edward Tufte, *The Visual Display of Quantitative Information*
+  - Tom White, *Hadoop: The Definitive Guide* (O'Reilly)
+- **En ligne** :
+  - [Kaggle](https://www.kaggle.com) – jeux de données et tutoriels
+  - [Towards Data Science](https://towardsdatascience.com) (Medium)
+  - Documentation officielle Apache Spark ([spark.apache.org](https://spark.apache.org))
+  - Fast.ai – cours de deep learning accessibles
+
+## Prérequis
+
+Une connaissance de base de Python et des notions de statistiques descriptives sont souhaitables. Les étudiants sans bagage technique seront accompagnés lors d'une mise à niveau en début de cours.

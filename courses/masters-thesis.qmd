@@ -1,0 +1,106 @@
+---
+title: "Master's Thesis"
+subtitle: "Mémoire de Master – Recherche approfondie et originale"
+---
+
+## Présentation
+
+Le mémoire de master est le travail académique central du Master DTDM. Il constitue la preuve de la capacité de l'étudiant à mener une réflexion autonome, rigoureuse et originale sur un sujet en lien avec la transformation numérique. Encadré par un directeur ou une directrice de mémoire, ce travail est présenté et soutenu devant un jury à l'issue de l'année de master.
+
+## Objectifs
+
+Le mémoire de master vise à :
+
+- Démontrer la maîtrise des savoirs et des compétences acquis au cours du Master DTDM
+- Développer une démarche de recherche originale sur une problématique liée au numérique
+- Articuler des apports théoriques et une analyse empirique ou conceptuelle rigoureuse
+- Produire un document scientifique de qualité répondant aux standards académiques
+- Préparer les étudiants souhaitant poursuivre en doctorat ou exercer des fonctions requérant des compétences analytiques avancées
+
+## Caractéristiques du mémoire
+
+| Critère | Attendu |
+|---|---|
+| **Volume** | 60 à 100 pages (hors annexes et bibliographie) |
+| **Langue** | Français (ou anglais sur accord du directeur de mémoire) |
+| **Structure** | Introduction · Revue de littérature · Méthodologie · Résultats · Discussion · Conclusion |
+| **Bibliographie** | Minimum 40 références académiques (normes APA ou Chicago) |
+| **Soutenance** | Présentation orale de 20 minutes + questions du jury |
+
+## Thématiques possibles
+
+Les sujets de mémoire doivent s'inscrire dans les axes thématiques du Master DTDM :
+
+- Stratégies et gouvernance de la transformation numérique
+- Intelligence artificielle, automatisation et mutations du travail
+- Droits fondamentaux, éthique et régulation du numérique
+- Usages numériques et comportements des utilisateurs
+- Cybersécurité, blockchain et nouvelles formes de valeur numérique
+- Données massives, visualisation et aide à la décision
+- Innovation numérique et entrepreneuriat
+- Éducation et formation à l'ère du numérique
+- Numérique et développement durable (sobriété numérique, RSE)
+- Prospective des technologies émergentes
+
+## Processus et étapes clés
+
+### Semestre 1
+
+| Étape | Échéance indicative |
+|---|---|
+| Choix du sujet et identification du directeur | Octobre |
+| Dépôt de la fiche de sujet (titre, problématique, plan provisoire) | Novembre |
+| Premier rendu intermédiaire (revue de littérature) | Janvier |
+
+### Semestre 2
+
+| Étape | Échéance indicative |
+|---|---|
+| Rendu de l'état d'avancement (50 % du mémoire) | Mars |
+| Dépôt du mémoire final | Mai / Juin |
+| Soutenance devant le jury | Juin / Juillet |
+
+## Encadrement et suivi
+
+Chaque étudiant est suivi par un **directeur ou une directrice de mémoire**, enseignant-chercheur de l'Université Paris 8 ou professionnel habilité. L'encadrement comprend :
+
+- Des réunions régulières de suivi (minimum 4 séances dans l'année)
+- Des retours écrits sur les versions intermédiaires du mémoire
+- Un accès aux ressources documentaires de l'université (bibliothèque, bases de données)
+- Un accompagnement méthodologique (séminaires de méthodes, ateliers d'écriture)
+
+## Évaluation et jury
+
+La soutenance se déroule devant un jury composé d'au moins deux membres :
+
+- Le directeur ou la directrice de mémoire
+- Un ou plusieurs membres extérieurs (enseignant-chercheur d'une autre université, professionnel du secteur)
+
+### Critères d'évaluation
+
+| Critère | Pondération |
+|---|---|
+| Qualité de la problématique et pertinence du sujet | 20 % |
+| Maîtrise de la revue de littérature | 20 % |
+| Rigueur méthodologique | 20 % |
+| Qualité de l'analyse et originalité des résultats | 20 % |
+| Forme et rédaction (clarté, structure, bibliographie) | 10 % |
+| Soutenance orale (clarté, réponses aux questions) | 10 % |
+
+## Conseils méthodologiques
+
+1. **Choisissez un sujet qui vous passionne** : la rédaction d'un mémoire est un travail long et exigeant ; l'intérêt personnel est un moteur essentiel.
+2. **Posez une problématique claire et délimitée** : mieux vaut traiter un sujet précis en profondeur qu'un sujet vaste en surface.
+3. **Constituez votre bibliographie dès le début** et utilisez un logiciel de gestion (Zotero, Mendeley).
+4. **Écrivez régulièrement** : n'attendez pas d'avoir tout lu pour commencer à rédiger.
+5. **Maintenez un dialogue régulier avec votre directeur** : partagez vos avancées et vos doutes.
+6. **Respectez les échéances** intermédiaires pour éviter la surcharge en fin d'année.
+
+## Ressources recommandées
+
+- Umberto Eco, *Comment écrire sa thèse* (Flammarion) – un classique indispensable
+- Howard Becker, *Les ficelles du métier* (La Découverte)
+- Beaud & Weber, *Guide de l'enquête de terrain* (La Découverte)
+- [Zotero](https://www.zotero.org) – gestion bibliographique gratuite
+- [BU Paris 8](https://bibliotheque.univ-paris8.fr) – accès aux bases de données académiques
+- [Theses.fr](https://www.theses.fr) – moteur de recherche des thèses françaises

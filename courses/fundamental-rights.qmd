@@ -1,0 +1,84 @@
+---
+title: "Fundamental Rights in the Era of Digital and AI"
+subtitle: "Droits fondamentaux à l'ère du numérique et de l'intelligence artificielle"
+---
+
+## Présentation du cours
+
+Ce cours explore les tensions et les articulations entre les droits fondamentaux reconnus par les démocraties libérales et le développement accéléré des technologies numériques et de l'intelligence artificielle. Il offre aux étudiants un cadre juridique, éthique et philosophique pour aborder les enjeux contemporains liés à la vie privée, à la non-discrimination, à la liberté d'expression et à la dignité humaine dans un monde de plus en plus numérisé.
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Identifier les droits fondamentaux concernés par la transformation numérique et l'IA
+- Analyser les textes législatifs européens et internationaux clés (RGPD, AI Act, Charte des droits fondamentaux de l'UE)
+- Appliquer un raisonnement éthique à des situations concrètes impliquant des technologies d'IA
+- Évaluer la conformité (*compliance*) d'un système numérique ou d'une IA au regard du droit
+- Participer à des débats publics et professionnels sur la gouvernance du numérique
+
+## Contenu du cours
+
+### Module 1 – Droits fondamentaux et numérique : panorama général
+
+- Qu'est-ce qu'un droit fondamental ? Fondements philosophiques et juridiques
+- La Charte des droits fondamentaux de l'Union européenne
+- Le droit à la vie privée et à la protection des données personnelles
+- La liberté d'expression à l'ère des réseaux sociaux et de la désinformation
+
+### Module 2 – Le cadre juridique européen du numérique
+
+- Le **Règlement Général sur la Protection des Données (RGPD)** : principes, obligations, droits des personnes
+- Le **Digital Services Act (DSA)** et le **Digital Markets Act (DMA)**
+- Le **règlement sur l'IA (AI Act)** : approche fondée sur les risques, interdictions, obligations
+- La directive sur les systèmes d'IA à haut risque : implications pratiques
+
+### Module 3 – Intelligence artificielle et droits fondamentaux
+
+- Les biais algorithmiques et le droit à la non-discrimination
+- Systèmes de reconnaissance faciale et surveillance de masse
+- IA et justice prédictive : risques pour le droit à un procès équitable
+- Transparence et explicabilité des algorithmes (*right to explanation*)
+- IA générative, droits d'auteur et propriété intellectuelle
+
+### Module 4 – Éthique de l'IA et gouvernance
+
+- Les grands cadres éthiques de l'IA : lignes directrices de l'OCDE, recommandations de l'UNESCO
+- L'IA éthique par conception (*Ethics by Design*, *Privacy by Design*)
+- Mécanismes de gouvernance et d'audit des systèmes d'IA
+- Responsabilité juridique des acteurs de l'IA
+- Études de cas : scandale Cambridge Analytica, COMPAS, systèmes de scoring social
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Cours magistraux | Apports conceptuels, juridiques et éthiques |
+| Études de cas | Analyse de situations réelles ou simulées |
+| Débats et simulations | Mise en jeu de rôles (régulateurs, entreprises, citoyens) |
+| Clinique juridique numérique | Analyse de conformité de projets numériques réels |
+
+## Évaluation
+
+- **Analyse de conformité** d'un système numérique (RGPD / AI Act) – 40 %
+- **Dissertation ou argumentation écrite** sur un enjeu éthique et juridique – 35 %
+- **Participation aux débats** et aux études de cas – 25 %
+
+## Ressources recommandées
+
+- **Textes officiels** :
+  - [RGPD (Règlement UE 2016/679)](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679)
+  - [AI Act (Règlement UE sur l'IA)](https://artificialintelligenceact.eu/fr/)
+  - [Charte des droits fondamentaux de l'UE](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A12016P%2FTXT)
+- **Ouvrages** :
+  - Antoinette Rouvroy & Thomas Berns, *Gouvernementalité algorithmique*
+  - Cathy O'Neil, *Weapons of Math Destruction* (traduction française disponible)
+  - Kate Crawford, *Atlas of AI* (MIT Press)
+- **Institutions** :
+  - CNIL – [cnil.fr](https://www.cnil.fr)
+  - Agence de l'Union européenne pour les droits fondamentaux (FRA)
+  - AI Now Institute (New York University)
+
+## Prérequis
+
+Aucune formation juridique préalable n'est requise. Une curiosité pour les questions éthiques et politiques liées au numérique est souhaitée.

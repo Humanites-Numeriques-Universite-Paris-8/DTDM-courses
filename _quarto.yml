@@ -1,0 +1,62 @@
+project:
+  type: website
+
+website:
+  title: "DTDM – Digital Transformation Design & Management"
+  description: "Présentation du Master Digital Transformation Design & Management"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - text: Cours
+        menu:
+          - href: courses/intro-no-code.qmd
+            text: "Introduction au No-Code"
+          - href: courses/foreign-language.qmd
+            text: "Langue Étrangère"
+          - href: courses/digital-foresight.qmd
+            text: "Digital Foresight"
+          - href: courses/digital-transformation-management.qmd
+            text: "Digital Transformation Management"
+          - href: courses/fundamental-rights.qmd
+            text: "Droits Fondamentaux & IA"
+          - href: courses/data-security.qmd
+            text: "Sécurité des Données"
+          - href: courses/big-data.qmd
+            text: "Big Data"
+          - href: courses/professional-orientation.qmd
+            text: "Orientation Professionnelle"
+          - href: courses/conferences-workshop.qmd
+            text: "Conférences & Workshop"
+          - href: courses/masters-thesis.qmd
+            text: "Mémoire de Master"
+          - href: courses/internship.qmd
+            text: "Stage"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Présentation"
+        contents:
+          - index.qmd
+      - section: "Cours"
+        contents:
+          - courses/intro-no-code.qmd
+          - courses/foreign-language.qmd
+          - courses/digital-foresight.qmd
+          - courses/digital-transformation-management.qmd
+          - courses/fundamental-rights.qmd
+          - courses/data-security.qmd
+          - courses/big-data.qmd
+          - courses/professional-orientation.qmd
+          - courses/conferences-workshop.qmd
+          - courses/masters-thesis.qmd
+          - courses/internship.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    lang: fr
