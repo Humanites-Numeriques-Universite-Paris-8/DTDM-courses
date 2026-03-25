@@ -25,7 +25,17 @@ This module provides an intensive introduction to the lifecycle of Big Data. Stu
 
 # 2. Learning Outcomes
 
-By the end of this course, students will be able to: 1. **Architect** data pipelines for acquisition, cleaning, and transformation. 2. **Evaluate** storage solutions for structured, semi-structured, and unstructured data (SQL vs. NoSQL). 3. **Apply** data mining techniques (Classification, Clustering, Regression) to extract patterns. 4. **Synthesize** complex findings into interactive dashboards and visual stories. 5. **Critique** data practices through the lens of methodological rigor and ethical responsibility.
+By the end of this course, students will be able to :
+
+1.  **Architect** data pipelines for acquisition, cleaning, and transformation.
+
+2.  **Evaluate** storage solutions for structured, semi-structured, and unstructured data (SQL vs. NoSQL).
+
+3.  **Apply** data mining techniques (Classification, Clustering, Regression) to extract patterns.
+
+4.  **Synthesize** complex findings into interactive dashboards and visual stories.
+
+5.  **Critique** data practices through the lens of methodological rigor and ethical responsibility.
 
 ------------------------------------------------------------------------
 
