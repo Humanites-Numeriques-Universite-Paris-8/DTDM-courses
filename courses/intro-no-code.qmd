@@ -1,0 +1,72 @@
+---
+title: "Introduction to No-Code Programming"
+subtitle: "Ideation around Personal Needs and Co-creation of Digital Solutions"
+---
+
+## Présentation du cours
+
+Ce cours initie les étudiants aux approches **no-code** et **low-code** pour la création de solutions numériques. Il met l'accent sur l'idéation à partir de besoins personnels et réels, et sur la co-création collaborative de prototypes numériques fonctionnels, sans nécessiter de compétences préalables en développement logiciel.
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Identifier et formuler des besoins personnels et organisationnels pouvant être résolus par des outils numériques
+- Utiliser des plateformes no-code (Bubble, Webflow, Airtable, Zapier, Notion, etc.) pour prototyper des solutions
+- Conduire un processus d'idéation structuré (design thinking, brainstorming, user story mapping)
+- Collaborer en équipe pour co-créer et itérer sur des solutions numériques
+- Évaluer la pertinence et la faisabilité d'une solution no-code face à un problème donné
+
+## Contenu du cours
+
+### Module 1 – Introduction au mouvement no-code
+
+- Histoire et évolution des outils no-code / low-code
+- Panorama des plateformes disponibles et leurs cas d'usage
+- Avantages et limites du no-code par rapport au développement traditionnel
+
+### Module 2 – Idéation & Design Thinking
+
+- Comprendre les besoins des utilisateurs : empathie, observation, entretiens
+- Techniques d'idéation : mind mapping, brainstorming structuré, « How Might We »
+- Priorisation des idées et définition du problème central
+- Création de personas et de parcours utilisateur (user journey)
+
+### Module 3 – Prototypage no-code
+
+- Découverte des outils phares : Bubble, Glide, Webflow, Airtable, Make (ex-Integromat)
+- Construction d'un prototype fonctionnel pas à pas
+- Intégration d'automatisations et de flux de données
+- Tests utilisateurs et itérations
+
+### Module 4 – Co-création et présentation
+
+- Travail collaboratif en équipe pluridisciplinaire
+- Méthodes agiles appliquées au no-code (sprints courts, rétrospectives)
+- Présentation et défense du prototype devant un jury
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Cours magistraux | Apports théoriques sur les concepts clés |
+| Ateliers pratiques | Prise en main des outils no-code sur des cas concrets |
+| Projets de groupe | Co-création d'une solution numérique en équipe |
+| Présentations | Restitution et soutenance du prototype final |
+
+## Évaluation
+
+- **Prototype fonctionnel** (livrable collectif) – 50 %
+- **Présentation orale** (soutenance en équipe) – 30 %
+- **Réflexion individuelle écrite** (retour d'expérience) – 20 %
+
+## Ressources recommandées
+
+- [Bubble.io Documentation](https://bubble.io/documentation)
+- [Webflow University](https://university.webflow.com/)
+- IDEO, *Design Thinking Handbook* (en ligne, accès libre)
+- Norbert Alter, *L'innovation ordinaire* – pour replacer l'innovation dans son contexte social
+
+## Prérequis
+
+Aucune compétence en programmation n'est requise. Une curiosité pour les outils numériques et une envie de résoudre des problèmes de façon créative sont les seuls prérequis.

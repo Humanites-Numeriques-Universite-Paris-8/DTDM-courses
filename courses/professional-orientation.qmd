@@ -1,0 +1,107 @@
+---
+title: "Professional Orientation"
+subtitle: "Orientation Professionnelle – Recherche / Industrie"
+---
+
+## Présentation du cours
+
+Ce module d'orientation professionnelle accompagne les étudiants dans la définition et la concrétisation de leur projet professionnel à l'issue du Master DTDM, que ce soit vers une carrière dans l'industrie numérique ou vers la recherche académique. Il propose un accompagnement individualisé et des ateliers collectifs pour préparer efficacement l'insertion professionnelle ou la poursuite en doctorat.
+
+## Objectifs pédagogiques
+
+À l'issue de ce module, les étudiants seront capables de :
+
+- Clarifier leur projet professionnel à court, moyen et long terme
+- Identifier les débouchés métiers liés au DTDM dans l'industrie et dans la recherche
+- Constituer un dossier de candidature compétitif (CV, lettre de motivation, portfolio)
+- Préparer et réussir des entretiens professionnels ou des auditions doctorales
+- Développer et mobiliser leur réseau professionnel
+- Comprendre les spécificités et les exigences d'une carrière académique
+
+## Contenu du module
+
+### Axe 1 – Connaissance de soi et du marché
+
+- Bilan de compétences et auto-évaluation des aptitudes
+- Panorama des métiers de la transformation numérique : Chief Digital Officer (CDO), UX/UI Designer, Data Scientist, Chef de projet numérique, Consultant en transformation digitale, etc.
+- Analyse des tendances du marché de l'emploi numérique en France et en Europe
+- Identification des secteurs porteurs : industrie, finance, santé, éducation, administration publique
+
+### Axe 2 – Outils et techniques de recherche d'emploi
+
+- Rédaction d'un CV percutant dans le secteur numérique
+- Lettre de motivation et dossier de candidature personnalisés
+- Création et optimisation du profil LinkedIn
+- Portfolio de compétences numériques (GitHub, Behance, site personnel)
+- Techniques de recherche d'emploi : job boards, réseau, candidatures spontanées
+
+### Axe 3 – Préparation aux entretiens
+
+- Simulation d'entretiens professionnels (mock interviews)
+- Présentation de soi et *elevator pitch*
+- Réponse aux questions comportementales (méthode STAR)
+- Entretiens de cas (*case studies*) pour les cabinets de conseil
+- Négociation salariale et conditions de travail
+
+### Axe 4 – Orientation vers la recherche académique
+
+- Comprendre le monde académique : parcours doctoral, HDR, enseignement-recherche
+- Rédaction d'un projet de thèse et identification d'un directeur de recherche
+- Candidature aux allocations doctorales (CIFRE, contrats ANR, bourses)
+- Présentation des laboratoires de recherche partenaires (INRIA, CNRS, équipes universitaires)
+- Articulation entre monde académique et monde professionnel (thèses CIFRE, contrats de recherche partenariale)
+
+### Axe 5 – Rencontres et réseautage
+
+- Tables rondes avec des diplômés du Master DTDM (retours d'expérience)
+- Rencontres avec des professionnels du secteur numérique
+- Participation à des forums et salons de l'emploi (Forum des Grandes Écoles, VivaTech, etc.)
+- Introduction aux associations professionnelles : Syntec Numérique, CIGREF, etc.
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Coaching individuel | Sessions de conseil personnalisé sur le projet professionnel |
+| Ateliers collectifs | Travail en groupe sur les outils de recherche d'emploi |
+| Simulations | Entretiens blancs et mises en situation |
+| Conférences | Témoignages de professionnels et de chercheurs |
+
+## Évaluation
+
+- **Dossier de candidature** complet et soigné (CV + lettre + portfolio) – 50 %
+- **Simulation d'entretien** évaluée par un jury – 30 %
+- **Note de projet professionnel** (document d'orientation à 3 ans) – 20 %
+
+## Débouchés du Master DTDM
+
+### Secteur industriel et privé
+
+- Consultant(e) en transformation digitale
+- Chef(fe) de projet numérique
+- Product Owner / Product Manager
+- Data Analyst / Data Scientist
+- Responsable de l'innovation numérique
+- CDO (Chief Digital Officer) adjoint(e)
+- UX Designer / Service Designer
+- Chargé(e) de mission numérique
+
+### Secteur public et associatif
+
+- Responsable de la transformation numérique dans une collectivité
+- Chargé(e) de mission numérique dans un ministère ou une agence publique
+- Chef(fe) de projet e-administration
+
+### Poursuite en recherche
+
+- Doctorat en sciences de l'information et de la communication
+- Doctorat en gestion des systèmes d'information
+- Thèse CIFRE en partenariat avec une entreprise numérique
+
+## Ressources recommandées
+
+- [LinkedIn Learning](https://learning.linkedin.com) – parcours de développement professionnel
+- [Welcome to the Jungle](https://www.welcometothejungle.com) – offres d'emploi tech
+- [Pôle Emploi Cadres](https://cadres.pole-emploi.fr)
+- Cal Newport, *So Good They Can't Ignore You* (Grand Central Publishing)
+- [INRIA – Recrutement doctorants](https://www.inria.fr/fr/recrutement-theses)

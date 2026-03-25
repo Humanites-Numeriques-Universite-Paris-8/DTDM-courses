@@ -1,0 +1,100 @@
+---
+title: "Master DTDM – Digital Transformation Design & Management"
+page-layout: full
+---
+
+::: {.hero}
+# Master Digital Transformation Design & Management
+
+Bienvenue sur le site du Master **DTDM** de l'Université Paris 8.  
+Ce programme forme des professionnels capables de concevoir, piloter et gérer la transformation numérique des organisations, en articulant vision stratégique, compétences techniques et posture managériale.
+:::
+
+## Présentation du Master
+
+Le Master **Digital Transformation Design & Management (DTDM)** est un programme de deuxième cycle universitaire qui prépare les étudiants à comprendre et à conduire la transformation numérique dans toutes ses dimensions : technologique, organisationnelle, juridique, éthique et stratégique.
+
+Le programme allie cours magistraux, ateliers pratiques, conférences professionnelles et une immersion en entreprise afin de garantir une formation à la fois académique et opérationnelle.
+
+## Structure du programme
+
+Le cursus est organisé en **onze modules** couvrant l'ensemble du spectre de la transformation numérique :
+
+::: {.course-card}
+### 1. [Introduction au No-Code](courses/intro-no-code.qmd)
+**Introduction to No-Code Programming: Ideation around Personal Needs and Co-creation of Digital Solutions**  
+Idéation autour des besoins personnels et co-création de solutions numériques sans code.
+:::
+
+::: {.course-card}
+### 2. [Langue Étrangère](courses/foreign-language.qmd)
+**Foreign Language Course**  
+Renforcement des compétences linguistiques dans un contexte professionnel numérique international.
+:::
+
+::: {.course-card}
+### 3. [Digital Foresight](courses/digital-foresight.qmd)
+**Digital Foresight**  
+Méthodes et outils de prospective appliqués aux mutations numériques.
+:::
+
+::: {.course-card}
+### 4. [Digital Transformation Management](courses/digital-transformation-management.qmd)
+**Digital Transformation Management** *(2 jours de cours + 3 jours de workshop)*  
+Pilotage stratégique et opérationnel de la transformation numérique en organisation.
+:::
+
+::: {.course-card}
+### 5. [Droits Fondamentaux & IA](courses/fundamental-rights.qmd)
+**Fundamental Rights in the Era of Digital and AI**  
+Enjeux juridiques et éthiques liés au numérique et à l'intelligence artificielle.
+:::
+
+::: {.course-card}
+### 6. [Sécurité des Données & Transactions](courses/data-security.qmd)
+**Data and Transaction Security (Cybersecurity, Blockchain, NFT)**  
+Cybersécurité, blockchain et nouvelles formes de valeur numérique.
+:::
+
+::: {.course-card}
+### 7. [Big Data](courses/big-data.qmd)
+**Analysis, Management, Data Mining, and Visualisation of Big Data**  
+Analyse, gestion, extraction et visualisation des mégadonnées.
+:::
+
+::: {.course-card}
+### 8. [Orientation Professionnelle](courses/professional-orientation.qmd)
+**Professional Orientation (Research/Industry)**  
+Accompagnement vers les métiers de la recherche ou de l'industrie numérique.
+:::
+
+::: {.course-card}
+### 9. [Conférences & Workshop](courses/conferences-workshop.qmd)
+**2 Days of Conferences & 3 Days Workshop: Internship and Master's Thesis Preparation in the Post-Digital Era**  
+Préparation au stage et au mémoire dans le contexte post-numérique.
+:::
+
+::: {.course-card}
+### 10. [Mémoire de Master](courses/masters-thesis.qmd)
+**Master's Thesis**  
+Travail de recherche approfondi encadré par un directeur de mémoire.
+:::
+
+::: {.course-card}
+### 11. [Stage](courses/internship.qmd)
+**Internship (2–6 months)**  
+Immersion professionnelle en entreprise ou en laboratoire de recherche.
+:::
+
+## Compétences visées
+
+- Concevoir et piloter des projets de transformation numérique
+- Maîtriser les outils no-code et les technologies émergentes
+- Analyser et valoriser les données massives
+- Comprendre les enjeux juridiques et éthiques du numérique
+- Anticiper les évolutions technologiques par la prospective
+- Communiquer en environnement professionnel international
+
+## Contact & informations
+
+Pour toute information sur les modalités d'admission, les frais de scolarité et les débouchés, veuillez consulter le site officiel de l'**Université Paris 8** ou contacter le secrétariat du département concerné.

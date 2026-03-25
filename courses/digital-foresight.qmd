@@ -1,0 +1,78 @@
+---
+title: "Digital Foresight"
+subtitle: "Prospective appliquée aux mutations numériques"
+---
+
+## Présentation du cours
+
+La prospective numérique (*Digital Foresight*) est la discipline qui permet d'anticiper, d'analyser et de se préparer aux évolutions technologiques et sociétales à venir. Ce cours dote les étudiants des méthodes et des outils pour explorer les futurs possibles du numérique et élaborer des stratégies adaptées à long terme.
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Comprendre les fondements théoriques de la prospective et de la veille technologique
+- Identifier les signaux faibles et les tendances émergentes dans le domaine du numérique
+- Construire des scénarios prospectifs cohérents et argumentés
+- Utiliser des outils de veille et d'intelligence collective pour analyser l'environnement numérique
+- Intégrer la démarche prospective dans une stratégie d'organisation
+
+## Contenu du cours
+
+### Module 1 – Fondements de la prospective
+
+- Histoire et courants de la prospective (Michel Godet, Hugues de Jouvenel)
+- Différence entre prévision, prédiction et prospective
+- La prospective stratégique appliquée aux organisations numériques
+- Introduction aux méthodes systémiques
+
+### Module 2 – Veille et identification des tendances
+
+- Méthodes de veille technologique et concurrentielle
+- Identification et qualification des signaux faibles
+- Outils numériques de veille : agrégateurs, outils d'IA, bases de données spécialisées
+- Analyse PESTEL appliquée au contexte numérique
+
+### Module 3 – Construction de scénarios
+
+- La méthode des scénarios (morphologie, axes stratégiques)
+- Atelier de construction de scénarios pour le numérique à horizon 2030–2040
+- Techniques d'animation de groupes prospectifs (Delphi, World Café)
+- Évaluation des scénarios : vraisemblance, impact, robustesse
+
+### Module 4 – Prospective et stratégie organisationnelle
+
+- De la prospective à la feuille de route stratégique (*roadmap*)
+- Gestion de l'incertitude et résilience organisationnelle
+- Cas d'études : entreprises ayant intégré la prospective numérique dans leur stratégie
+- Présentation des travaux prospectifs des équipes
+
+## Technologies et outils abordés
+
+- **Outils de veille** : Feedly, Inoreader, Netvibes, Google Alerts
+- **Cartographie** : Kumu, MindMeister, Miro
+- **Analyse des tendances** : Gartner Hype Cycle, MIT Technology Review Emerging Technologies
+- **IA et prospective** : outils d'analyse sémantique et de traitement de données textuelles
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Cours magistraux | Apports conceptuels et méthodologiques |
+| Ateliers prospectifs | Construction collective de scénarios |
+| Études de cas | Analyse d'entreprises et de secteurs en mutation |
+| Conférences invitées | Interventions de prospectivistes et de directeurs de l'innovation |
+
+## Évaluation
+
+- **Rapport de veille** (individuel) – 30 %
+- **Scénarios prospectifs** (travail de groupe) – 40 %
+- **Présentation orale** de la démarche prospective – 30 %
+
+## Ressources recommandées
+
+- Michel Godet, *Manuel de prospective stratégique* (Dunod)
+- Gartner, *Hype Cycle for Emerging Technologies* (rapports annuels)
+- Institut pour la Prospective et la Sécurité en Europe (IPSE)
+- MIT Media Lab – *Next Economy* reports
+- OCDE, rapports sur l'avenir du travail et du numérique

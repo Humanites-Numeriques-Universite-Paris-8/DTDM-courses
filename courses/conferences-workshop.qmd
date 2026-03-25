@@ -1,0 +1,110 @@
+---
+title: "2 Days of Conferences & 3 Days Workshop"
+subtitle: "Préparation au stage et au mémoire dans l'ère post-numérique"
+---
+
+## Présentation du module
+
+Ce module hybride, composé de deux jours de conférences et de trois jours de workshop intensif, constitue une étape charnière dans le parcours du Master DTDM. Il prépare les étudiants à la double exigence du stage professionnel et de la rédaction du mémoire de master, en les plongeant dans les questionnements propres à l'ère post-numérique. Des professionnels, des chercheurs et des anciens étudiants partagent leurs expériences, tandis que les workshops permettent de travailler concrètement sur la méthodologie et les livrables attendus.
+
+## Format pédagogique
+
+| Phase | Durée | Objectifs |
+|---|---|---|
+| Conférences | 2 jours | Inspiration, témoignages, enjeux du post-numérique |
+| Workshop | 3 jours | Méthodologie, livrables, accompagnement individualisé |
+
+## Objectifs pédagogiques
+
+À l'issue de ce module, les étudiants seront capables de :
+
+- Comprendre les enjeux contemporains de l'ère post-numérique et ses implications pour les organisations
+- Définir et formaliser un projet de stage cohérent avec leur parcours et leurs ambitions
+- Poser une problématique de recherche pertinente pour leur mémoire
+- Choisir et appliquer une méthodologie adaptée à leur sujet de mémoire
+- Gérer les aspects pratiques et administratifs du stage (convention, attendus, livrables)
+- Présenter et défendre une première version de leur problématique devant leurs pairs
+
+## Programme des Conférences (2 jours)
+
+### Jour 1 – Vivre et travailler dans l'ère post-numérique
+
+**Matin :**
+
+- Conférence inaugurale : *Qu'est-ce que l'ère post-numérique ? Ruptures, continuités et nouveaux paradigmes*
+- Table ronde avec des professionnels de la transformation numérique : témoignages sur les évolutions des métiers
+- Questions/réponses avec le public étudiant
+
+**Après-midi :**
+
+- Conférence : *Intelligence artificielle générative et avenir du travail intellectuel*
+- Présentation : *Le stage en entreprise ou en laboratoire : enjeux, attentes et bonnes pratiques*
+- Table ronde d'anciens étudiants du Master DTDM : retours d'expérience de stage et de mémoire
+
+### Jour 2 – Recherche, innovation et mémoire de master
+
+**Matin :**
+
+- Conférence : *La recherche en sciences sociales du numérique : méthodes et positionnements*
+- Présentation : *Les attentes du jury de mémoire : critères d'évaluation et d'excellence*
+- Exemples de mémoires remarquables des promotions précédentes
+
+**Après-midi :**
+
+- Conférence : *Innovation et entrepreneuriat dans un monde post-numérique*
+- Présentation des ressources universitaires : bibliothèques, bases de données, outils de gestion bibliographique
+- Clôture et transition vers le workshop
+
+## Programme du Workshop (3 jours)
+
+### Jour 3 – Définir son projet
+
+**Ateliers :**
+
+- Exploration des thématiques de stage et de mémoire possibles
+- Exercice d'idéation : cartographie des centres d'intérêt et des compétences
+- Rédaction d'une première note d'intention (stage + mémoire)
+- Revue par les pairs et feedback des enseignants
+
+### Jour 4 – Méthodologie et structuration
+
+**Ateliers :**
+
+- Formulation de la problématique et des hypothèses de recherche
+- Choix de la méthodologie : approche qualitative, quantitative ou mixte
+- Construction d'un plan de mémoire provisoire
+- Initiation aux outils de gestion bibliographique : Zotero, Mendeley
+- Coaching individualisé avec les enseignants référents
+
+### Jour 5 – Présentation et validation
+
+**Ateliers et soutenances blanches :**
+
+- Présentation de la problématique et du plan de mémoire devant un jury d'enseignants
+- Feedback structuré et pistes d'amélioration
+- Validation des projets de stage (signature des conventions)
+- Clôture du module et conseils pour la suite
+
+## Thématiques privilégiées dans l'ère post-numérique
+
+- Intelligence artificielle générative et créativité
+- Gouvernance algorithmique et démocratie
+- Travail et emploi à l'ère de l'automatisation
+- Métavers et nouvelles formes d'espaces numériques
+- Sobriété numérique et durabilité
+- Post-humanisme et augmentation technologique
+- Plateformisation des économies et des savoirs
+
+## Évaluation
+
+- **Note d'intention** (projet de stage + projet de mémoire) – 40 %
+- **Présentation de la problématique** lors du workshop (soutenance blanche) – 40 %
+- **Participation active** aux conférences et aux ateliers – 20 %
+
+## Ressources recommandées
+
+- Umberto Eco, *Comment écrire sa thèse* (Flammarion)
+- Howard Becker, *Les ficelles du métier* (La Découverte)
+- [Zotero](https://www.zotero.org) – gestionnaire de références bibliographiques (gratuit)
+- [Persée](https://www.persee.fr) & [Cairn](https://www.cairn.info) – bases de données académiques francophones
+- [OpenEdition](https://www.openedition.org) – publications en sciences humaines et sociales en accès libre

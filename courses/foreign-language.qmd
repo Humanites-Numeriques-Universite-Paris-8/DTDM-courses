@@ -1,0 +1,71 @@
+---
+title: "Foreign Language Course"
+subtitle: "Langue Étrangère appliquée au contexte numérique professionnel"
+---
+
+## Présentation du cours
+
+Ce cours vise à renforcer les compétences linguistiques des étudiants dans une langue étrangère (principalement l'anglais) dans le contexte spécifique du numérique et de la transformation digitale. Il prépare les étudiants à évoluer dans des environnements professionnels et académiques internationaux.
+
+## Objectifs pédagogiques
+
+À l'issue de ce cours, les étudiants seront capables de :
+
+- Comprendre et produire des textes professionnels en langue étrangère liés au numérique
+- Participer activement à des réunions, présentations et négociations en anglais
+- Rédiger des rapports, emails et documents techniques dans un registre professionnel adapté
+- Analyser des ressources académiques et industrielles en langue étrangère
+- Présenter un projet numérique ou une problématique de transformation digitale à l'oral
+
+## Contenu du cours
+
+### Module 1 – Vocabulaire et terminologie du numérique
+
+- Lexique de la transformation digitale, de l'IA et des technologies émergentes
+- Acronymes et jargon du secteur (SaaS, API, agile, MVP, KPI, etc.)
+- Exercices d'appropriation contextuelle du vocabulaire
+
+### Module 2 – Communication professionnelle écrite
+
+- Rédaction d'emails professionnels, de comptes-rendus et de rapports de projet
+- Structure et style des documents académiques et professionnels en langue étrangère
+- Révision et correction entre pairs (*peer review*)
+
+### Module 3 – Communication orale et présentations
+
+- Techniques de prise de parole en public en langue étrangère
+- Préparation et animation de réunions et de workshops
+- Pitchs et présentations de projets numériques
+- Simulation d'entretiens professionnels
+
+### Module 4 – Lecture et analyse de ressources spécialisées
+
+- Lecture critique d'articles académiques et de rapports industriels
+- Synthèse et restitution en français et en langue étrangère
+- Veille et curation de contenus numériques
+
+## Méthodes pédagogiques
+
+| Format | Description |
+|---|---|
+| Cours interactifs | Échanges oraux, débats et discussions en langue étrangère |
+| Ateliers d'écriture | Production écrite guidée et corrigée |
+| Jeux de rôle | Simulation de situations professionnelles réelles |
+| Exposés | Présentation orale de sujets liés au numérique |
+
+## Évaluation
+
+- **Expression écrite** (dossier de production écrite) – 40 %
+- **Expression orale** (présentation et entretien) – 40 %
+- **Participation active en cours** – 20 %
+
+## Niveau requis
+
+Le cours est adapté aux étudiants de niveau **B1 minimum** selon le Cadre Européen Commun de Référence pour les Langues (CECRL). Les étudiants de niveau avancé (C1/C2) sont encouragés à approfondir leurs compétences dans d'autres domaines (rédaction académique, négociation interculturelle).
+
+## Ressources recommandées
+
+- Cambridge Business English Dictionary (en ligne)
+- *English for Digital Transformation* – ressources Coursera / edX
+- MIT Technology Review (lecture régulière recommandée)
+- TED Talks sur les thèmes du numérique et de l'innovation

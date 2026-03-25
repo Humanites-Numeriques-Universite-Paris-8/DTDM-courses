@@ -1,0 +1,116 @@
+---
+title: "Internship"
+subtitle: "Stage professionnel – 2 à 6 mois"
+---
+
+## Présentation
+
+Le stage constitue une immersion professionnelle ou de recherche fondamentale dans le cursus du Master DTDM. D'une durée de **2 à 6 mois**, il permet à l'étudiant de mettre en pratique les compétences acquises au cours de la formation, de développer son réseau professionnel et de nourrir son mémoire de master par une expérience de terrain authentique.
+
+## Objectifs
+
+Le stage vise à :
+
+- Appliquer les connaissances théoriques et les méthodes acquises en Master dans un contexte professionnel réel
+- Développer des compétences opérationnelles spécifiques au secteur de la transformation numérique
+- Contribuer de manière significative à un projet ou à une mission au sein d'une organisation
+- Établir et développer un réseau professionnel dans le domaine du numérique
+- Alimenter la réflexion du mémoire de master à partir d'observations et d'expériences de terrain
+
+## Modalités pratiques
+
+| Critère | Informations |
+|---|---|
+| **Durée** | 2 à 6 mois |
+| **Période** | À partir du second semestre du Master |
+| **Statut** | Stage conventionné (convention tripartite université / étudiant / organisme d'accueil) |
+| **Gratification** | Obligatoire au-delà de 2 mois (selon barème légal en vigueur) |
+| **Lieu** | En France ou à l'étranger |
+| **Suivi** | Tuteur professionnel dans l'organisme + enseignant référent à l'université |
+
+## Types d'organismes d'accueil
+
+Les stages peuvent être effectués dans des structures variées :
+
+### Secteur privé
+
+- Entreprises numériques (startups, scale-ups, grands groupes tech)
+- Cabinets de conseil en transformation digitale (McKinsey Digital, Accenture, Capgemini, etc.)
+- Agences digitales et studios de design
+- Entreprises de toutes tailles ayant des projets de transformation numérique (industrie, finance, santé, retail, etc.)
+
+### Secteur public et institutionnel
+
+- Ministères et agences gouvernementales (DINUM, ANSSI, etc.)
+- Collectivités territoriales en cours de transformation numérique
+- Organisations internationales (ONU, OCDE, Commission européenne)
+
+### Recherche académique
+
+- Laboratoires de recherche en informatique, SIC, gestion ou économie numérique
+- Équipes universitaires françaises et étrangères
+- Instituts de recherche (INRIA, CNRS, etc.)
+- Thèses CIFRE en lien avec une entreprise partenaire
+
+## Missions types
+
+Les étudiants du Master DTDM peuvent se voir confier des missions telles que :
+
+- Diagnostic et audit de la maturité numérique d'une organisation
+- Pilotage d'un projet de transformation numérique ou d'innovation
+- Analyse de données et production de tableaux de bord
+- Conception d'une stratégie de contenu ou d'une expérience numérique
+- Veille technologique et réalisation de rapports prospectifs
+- Animation de la conduite du changement (communication, formation, accompagnement)
+- Développement d'une solution no-code ou low-code
+- Recherche et production d'un rapport académique sur une problématique numérique
+
+## Encadrement et suivi
+
+### Tuteur professionnel
+
+Le tuteur ou la tutrice au sein de l'organisme d'accueil est responsable de :
+
+- Définir les missions et les objectifs du stage
+- Accompagner l'étudiant au quotidien dans sa prise de poste
+- Évaluer la progression et les compétences développées
+- Compléter la fiche d'évaluation finale du stage
+
+### Enseignant référent
+
+L'enseignant ou l'enseignante référent(e) à l'université assure :
+
+- Le suivi régulier de l'étudiant (au minimum deux points de suivi)
+- L'accompagnement dans l'articulation entre la mission de stage et le mémoire
+- La validation du rapport de stage
+
+## Livrables attendus
+
+1. **Rapport de stage** : document de 25 à 40 pages présentant l'organisme d'accueil, les missions réalisées, les compétences développées et une analyse critique de l'expérience.
+2. **Soutenance de stage** : présentation orale de 15 minutes devant un jury (enseignant référent + éventuellement le tuteur professionnel), suivie de questions.
+3. **Fiche d'évaluation** complétée par le tuteur professionnel.
+
+## Évaluation
+
+| Élément | Pondération |
+|---|---|
+| Rapport de stage | 50 % |
+| Soutenance orale | 30 % |
+| Évaluation du tuteur professionnel | 20 % |
+
+## Conseils pour trouver un stage
+
+1. **Commencez tôt** : la recherche de stage doit débuter au moins 3 à 6 mois avant la date de début souhaitée.
+2. **Mobilisez votre réseau** : anciens étudiants du Master, LinkedIn, forums professionnels.
+3. **Ciblez vos candidatures** : adaptez votre CV et votre lettre de motivation à chaque offre.
+4. **Exploitez les ressources universitaires** : service des stages de l'université, offres diffusées par le département.
+5. **Pensez à l'international** : un stage à l'étranger est un atout distinctif sur le marché de l'emploi.
+
+## Plateformes de recherche de stage
+
+- [Welcome to the Jungle](https://www.welcometothejungle.com) – offres tech et startups
+- [LinkedIn Jobs](https://www.linkedin.com/jobs/) – offres et réseau
+- [Indeed](https://www.indeed.fr) – moteur de recherche généraliste
+- [Choosemycompany](https://www.choosemycompany.com) – stages dans des entreprises bien notées
+- [Institutionnel Erasmus+](https://erasmus-plus.ec.europa.eu) – stages à l'étranger avec bourse
+- Service des stages de l'Université Paris 8 – offres dédiées aux étudiants de l'établissement
